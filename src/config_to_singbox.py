@@ -310,8 +310,7 @@ class ConfigToSingbox:
       },
       {
         "rule_set": [
-          "geosite-ir",
-          "geosite-steam"
+          "geosite-ir"
         ],
         "outbound": "direct"
       },
