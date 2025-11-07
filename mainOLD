@@ -1,0 +1,292 @@
+{
+    "log": {
+        "level": "fatal"
+    },
+  "dns": {
+    "servers": [
+      {
+        "type": "local"
+      }
+    ]
+  },
+    "inbounds": [
+        {
+            "type": "tproxy",
+            "tag": "in",
+            "listen": "0.0.0.0",
+            "listen_port": 7895,
+            "domain_strategy": "prefer_ipv4",
+            "tcp_fast_open": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "type": "socks",
+            "tag": "socksin",
+            "listen": "127.0.0.1",
+            "listen_port": 20170,
+            "sniff": false,
+            "sniff_override_destination": false
+        }
+    ],
+    "outbounds": [
+        {
+            "type": "selector",
+            "tag": "proxy",
+            "outbounds": [
+                "Best-Ping",
+                "🇬🇧 1 - Trojan - United Kingdom : 8443",
+                "🇬🇧 2 - Trojan - United Kingdom : 8443",
+                "🇬🇧 3 - Trojan - United Kingdom : 8443",
+                "🇬🇧 4 - Trojan - United Kingdom : 8443",
+                "🇬🇧 5 - Trojan - United Kingdom : 8443",
+                "🇬🇧 6 - Trojan - United Kingdom : 8443",
+                "🇬🇧 7 - Trojan - United Kingdom : 8443",
+                "🇬🇧 8 - Trojan - United Kingdom : 8443",
+                "direct"
+            ]
+        },
+        {
+            "type": "urltest",
+            "tag": "Best-Ping",
+            "outbounds": [
+                "🇬🇧 1 - Trojan - United Kingdom : 8443",
+                "🇬🇧 2 - Trojan - United Kingdom : 8443",
+                "🇬🇧 3 - Trojan - United Kingdom : 8443",
+                "🇬🇧 4 - Trojan - United Kingdom : 8443",
+                "🇬🇧 5 - Trojan - United Kingdom : 8443",
+                "🇬🇧 6 - Trojan - United Kingdom : 8443",
+                "🇬🇧 7 - Trojan - United Kingdom : 8443",
+                "🇬🇧 8 - Trojan - United Kingdom : 8443"
+            ],
+            "url": "http://cp.cloudflare.com/",
+            "interval": "15m",
+            "tolerance": 120
+        },
+        {
+            "type": "trojan",
+            "tag": "🇬🇧 1 - Trojan - United Kingdom : 8443",
+            "server": "uk-04.allhubb.info",
+            "server_port": 8443,
+            "password": "3d66b6ac7a426653",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk-04.allhubb.info",
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {}
+        },
+        {
+            "type": "trojan",
+            "tag": "🇬🇧 2 - Trojan - United Kingdom : 8443",
+            "server": "uk-01.allhubb.info",
+            "server_port": 8443,
+            "password": "42d956c6a66decda",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk-01.allhubb.info",
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {}
+        },
+        {
+            "type": "trojan",
+            "tag": "🇬🇧 3 - Trojan - United Kingdom : 8443",
+            "server": "uk-05.allhubb.info",
+            "server_port": 8443,
+            "password": "7dad0f46f897498d",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk-05.allhubb.info",
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {}
+        },
+        {
+            "type": "trojan",
+            "tag": "🇬🇧 4 - Trojan - United Kingdom : 8443",
+            "server": "uk-03.allhubb.info",
+            "server_port": 8443,
+            "password": "92a8c91f8807ea36",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk-03.allhubb.info",
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {}
+        },
+        {
+            "type": "trojan",
+            "tag": "🇬🇧 5 - Trojan - United Kingdom : 8443",
+            "server": "uk-02.allhubb.info",
+            "server_port": 8443,
+            "password": "e505990cb147cb64",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk-02.allhubb.info",
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {}
+        },
+        {
+            "type": "trojan",
+            "tag": "🇬🇧 6 - Trojan - United Kingdom : 8443",
+            "server": "uk-06.allhubb.info",
+            "server_port": 8443,
+            "password": "e505990cb147cb64",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk-06.allhubb.info",
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {}
+        },
+        {
+            "type": "trojan",
+            "tag": "🇬🇧 7 - Trojan - United Kingdom : 8443",
+            "server": "uk-07.allhubb.info",
+            "server_port": 8443,
+            "password": "e505990cb147cb64",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk-07.allhubb.info",
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {}
+        },
+        {
+            "type": "trojan",
+            "tag": "🇬🇧 8 - Trojan - United Kingdom : 8443",
+            "server": "uk-08.allhubb.info",
+            "server_port": 8443,
+            "password": "e505990cb147cb64",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk-08.allhubb.info",
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {}
+        },
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "block",
+            "tag": "block"
+        }
+    ],
+    "route": {
+        "rules": [
+            {
+                "network": "udp",
+                "port": [
+                    19302
+                ],
+                "outbound": "proxy"
+            },
+            {
+                "rule_set": [
+                    "geosite-ir"
+],
+                "outbound": "direct"
+            },
+            {
+                "domain_suffix": [
+                    "deserver.top"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "inbound": [
+                    "socksin"
+                ],
+                "outbound": "proxy"
+            }
+        ],
+        "rule_set": [
+            {
+                "type": "remote",
+                "tag": "geosite-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/refs/heads/rule-set/geosite-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-steam",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/refs/heads/rule-set/geosite-steam.srs",
+                "download_detour": "direct"
+            }
+        ],
+        "final": "proxy",
+        "default_mark": 666
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "zashboard",
+            "external_ui_download_url": "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule"
+        }
+    }
+}
