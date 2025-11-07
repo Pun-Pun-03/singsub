@@ -48,22 +48,22 @@ class ConfigToSingbox:
         return '', ''
 
     def get_location(self, address: str) -> tuple:
-        try:
-            ip = socket.gethostbyname(address)
-            apis = [
-                self.get_location_from_ip_api,
-                self.get_location_from_ipapi_co,
-                self.get_location_from_ipwhois,
-            ]
-            for api_func in apis:
-                country_code, country = api_func(ip)
-                if country_code and country and len(country_code) == 2:
-                    flag = ''.join(chr(ord('🇦') + ord(c.upper()) - ord('A')) for c in country_code)
-                    time.sleep(1)
-                    return flag, country
-            time.sleep(1)
-        except Exception:
-            pass
+        #try:
+         #   ip = socket.gethostbyname(address)
+         #   apis = [
+         #       #self.get_location_from_ip_api,
+         #       #self.get_location_from_ipapi_co,
+        #        self.get_location_from_ipwhois,
+        #    ]
+         #   for api_func in apis:
+         #       country_code, country = api_func(ip)
+         #       if country_code and country and len(country_code) == 2:
+         #           flag = ''.join(chr(ord('🇦') + ord(c.upper()) - ord('A')) for c in country_code)
+          #          time.sleep(1)
+          #          return flag, country
+         #   time.sleep(1)
+       # except Exception:
+       #     pass
         return "", "Config"
 
     def decode_vmess(self, config: str) -> Optional[Dict]:
