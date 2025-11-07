@@ -3,14 +3,14 @@
 # List of source URLs to fetch proxy configurations from.
 # Add or remove URLs as needed. All URLs in this list are automatically enabled.
 SOURCE_URLS = [
-   "https://drive.google.com/uc?id=1t6JEHK87a0U-jTzw3n_M7u_fKA2N1LTY&export=download#%E2%AD%90%EF%B8%8FFreeXrayVPN%E2%AD%90%EF%B8%8F"
-   #"https://t.me/s/v2rayngvpn",
-   #"https://t.me/s/unlimited_v2ray_ng",
-   #"https://t.me/s/manVPN",
-   #"https://t.me/s/entryNET",
-   #"https://t.me/s/V2raysCollector",
-   #"https://t.me/s/NETMelliAnti",
-   #"https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_1.txt"
+   #"https://drive.google.com/uc?id=1t6JEHK87a0U-jTzw3n_M7u_fKA2N1LTY&export=download#%E2%AD%90%EF%B8%8FFreeXrayVPN%E2%AD%90%EF%B8%8F"
+   "https://t.me/s/v2rayngvpn",
+   "https://t.me/s/unlimited_v2ray_ng",
+   "https://t.me/s/manVPN",
+   "https://t.me/s/entryNET",
+   "https://t.me/s/V2raysCollector",
+   "https://t.me/s/NETMelliAnti",
+   "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_1.txt"
    # Add more URLs here if you want to include additional sources.
 ]
 
