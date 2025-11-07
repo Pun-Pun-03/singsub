@@ -237,20 +237,13 @@ class ConfigToSingbox:
 
 
             final_config = {
-  "log": {
-    "level": "fatal"
-  },
+    "log": {
+        "level": "fatal"
+    },
   "dns": {
     "servers": [
       {
         "type": "local"
-      }
-    ]
-  },
-    "rules": [
-      {
-        "outbound": "any",
-        "server": "local"
       }
     ]
   },
