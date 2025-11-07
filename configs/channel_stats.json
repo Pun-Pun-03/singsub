@@ -1,28 +1,4 @@
 {
-  "timestamp": "2025-11-07T21:03:30.851008+00:00",
-  "channels": [
-    {
-      "url": "https://raw.githubusercontent.com/miladtahanian/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs_tested.txt",
-      "enabled": true,
-      "metrics": {
-        "total_configs": 8184,
-        "valid_configs": 20,
-        "unique_configs": 20,
-        "avg_response_time": 0.13,
-        "success_count": 1,
-        "fail_count": 0,
-        "overall_score": 74.86,
-        "last_success": "2025-11-07T21:03:30.849922+00:00",
-        "protocol_counts": {
-          "wireguard://": 0,
-          "hysteria2://": 0,
-          "vless://": 0,
-          "vmess://": 20,
-          "ss://": 0,
-          "trojan://": 0,
-          "tuic://": 0
-        }
-      }
-    }
-  ]
+  "timestamp": "2025-11-07T21:11:02.458580+00:00",
+  "channels": []
 }
