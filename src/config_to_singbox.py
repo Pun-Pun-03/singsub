@@ -15,36 +15,36 @@ class ConfigToSingbox:
         }
 
     def get_location_from_ip_api(self, ip: str) -> Tuple[str, str]:
-        try:
-            response = requests.get(f'http://ip-api.com/json/{ip}', headers=self.headers, timeout=5)
-            if response.status_code == 200:
-                data = response.json()
-                if data.get('status') == 'success' and data.get('countryCode'):
-                    return data['countryCode'].lower(), data['country']
-        except Exception:
-            pass
+#        try:
+#            response = requests.get(f'http://ip-api.com/json/{ip}', headers=self.headers, timeout=5)
+#            if response.status_code == 200:
+#                data = response.json()
+#                if data.get('status') == 'success' and data.get('countryCode'):
+#                    return data['countryCode'].lower(), data['country']
+#        except Exception:
+#            pass
         return '', ''
 
     def get_location_from_ipapi_co(self, ip: str) -> Tuple[str, str]:
-        try:
-            response = requests.get(f'https://ipapi.co/{ip}/json/', headers=self.headers, timeout=5)
-            if response.status_code == 200:
-                data = response.json()
-                if data.get('country_code') and data.get('country_name'):
-                    return data['country_code'].lower(), data['country_name']
-        except Exception:
-            pass
+ #       try:
+ #           response = requests.get(f'https://ipapi.co/{ip}/json/', headers=self.headers, timeout=5)
+ #           if response.status_code == 200:
+ #               data = response.json()
+ #               if data.get('country_code') and data.get('country_name'):
+ #                   return data['country_code'].lower(), data['country_name']
+ #       except Exception:
+ #           pass
         return '', ''
 
     def get_location_from_ipwhois(self, ip: str) -> Tuple[str, str]:
-        try:
-            response = requests.get(f'https://ipwhois.app/json/{ip}', headers=self.headers, timeout=5)
-            if response.status_code == 200:
-                data = response.json()
-                if data.get('country_code') and data.get('country'):
-                    return data['country_code'].lower(), data['country']
-        except Exception:
-            pass
+#        try:
+#            response = requests.get(f'https://ipwhois.app/json/{ip}', headers=self.headers, timeout=5)
+#            if response.status_code == 200:
+#                data = response.json()
+#                if data.get('country_code') and data.get('country'):
+#                    return data['country_code'].lower(), data['country']
+#        except Exception:
+#            pass
         return '', ''
 
     def get_location(self, address: str) -> tuple:
@@ -64,7 +64,7 @@ class ConfigToSingbox:
             time.sleep(1)
         except Exception:
             pass
-        return "🏳️", "Unknown"
+        return "", "Config"
 
     def decode_vmess(self, config: str) -> Optional[Dict]:
         try:
