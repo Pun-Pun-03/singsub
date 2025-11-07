@@ -32,7 +32,7 @@ ENABLED_PROTOCOLS = {
     "hysteria2://": False,
     "vless://": True,
     "vmess://": True,
-    "ss://": True,
+    "ss://": False,
     "trojan://": True,
     "tuic://": False,
 }
