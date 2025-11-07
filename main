@@ -2,13 +2,13 @@
     "log": {
         "level": "fatal"
     },
-  "dns": {
-    "servers": [
-      {
-        "type": "local"
-      }
-    ]
-  },
+    "dns": {
+        "servers": [
+            {
+                "type": "local"
+            }
+        ]
+    },
     "inbounds": [
         {
             "type": "tproxy",
@@ -43,6 +43,7 @@
                 "🇬🇧 6 - Trojan - United Kingdom : 8443",
                 "🇬🇧 7 - Trojan - United Kingdom : 8443",
                 "🇬🇧 8 - Trojan - United Kingdom : 8443",
+                "🇬🇧 1 - VLESS - United Kingdom : 443",
                 "direct"
             ]
         },
@@ -57,7 +58,8 @@
                 "🇬🇧 5 - Trojan - United Kingdom : 8443",
                 "🇬🇧 6 - Trojan - United Kingdom : 8443",
                 "🇬🇧 7 - Trojan - United Kingdom : 8443",
-                "🇬🇧 8 - Trojan - United Kingdom : 8443"
+                "🇬🇧 8 - Trojan - United Kingdom : 8443",
+                "🇬🇧 1 - VLESS - United Kingdom : 443"
             ],
             "url": "http://cp.cloudflare.com/",
             "interval": "15m",
@@ -146,12 +148,12 @@
         {
             "type": "trojan",
             "tag": "🇬🇧 5 - Trojan - United Kingdom : 8443",
-            "server": "uk-02.allhubb.info",
+            "server": "uk-06.allhubb.info",
             "server_port": 8443,
-            "password": "e505990cb147cb64",
+            "password": "GByWxfdNiJ",
             "tls": {
                 "enabled": true,
-                "server_name": "uk-02.allhubb.info",
+                "server_name": "uk-06.allhubb.info",
                 "insecure": false,
                 "alpn": [
                     "http/1.1"
@@ -166,12 +168,12 @@
         {
             "type": "trojan",
             "tag": "🇬🇧 6 - Trojan - United Kingdom : 8443",
-            "server": "uk-06.allhubb.info",
+            "server": "uk-02.allhubb.info",
             "server_port": 8443,
             "password": "e505990cb147cb64",
             "tls": {
                 "enabled": true,
-                "server_name": "uk-06.allhubb.info",
+                "server_name": "uk-02.allhubb.info",
                 "insecure": false,
                 "alpn": [
                     "http/1.1"
@@ -224,6 +226,27 @@
             "transport": {}
         },
         {
+            "type": "vless",
+            "tag": "🇬🇧 1 - VLESS - United Kingdom : 443",
+            "server": "uk-10.allhubb.info",
+            "server_port": 443,
+            "uuid": "83de4c69-d25b-40c5-a37b-0fb8c5921c2d",
+            "flow": "",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk-10.allhubb.info",
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {}
+        },
+        {
             "type": "direct",
             "tag": "direct"
         },
@@ -244,7 +267,7 @@
             {
                 "rule_set": [
                     "geosite-ir"
-],
+                ],
                 "outbound": "direct"
             },
             {
