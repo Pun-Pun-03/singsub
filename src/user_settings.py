@@ -9,14 +9,14 @@ SOURCE_URLS = [
    #"https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt"
    "https://t.me/s/v2rayngvpn",
    "https://t.me/s/unlimited_v2ray_ng",
-   ″https://t.me/s/NoForcedHeaven″,
+   "https://t.me/s/NoForcedHeaven",
 "https://raw.githubusercontent.com/Farid-Karimi/Config-Collector/refs/heads/main/mixed_iran.txt",
 "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/ss.txt",
    #"https://t.me/s/manVPN",
    #"https://t.me/s/entryNET",
    #"https://t.me/s/V2raysCollector",
-   #"https://t.me/s/NETMelliAnti",
-   #"https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_1.txt"
+   "https://t.me/s/NETMelliAnti",
+   "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_1.txt"
    # Add more URLs here if you want to include additional sources.
 ]
 
