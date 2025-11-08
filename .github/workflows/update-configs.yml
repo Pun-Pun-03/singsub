@@ -37,7 +37,7 @@ jobs:
       continue-on-error: true
     
     - name: Convert configs to sing-box format
-      run: python src/config_to_singbox.py
+      run: php -d display_errors toSingbox.php
     
     - name: Setup Git
       run: |
