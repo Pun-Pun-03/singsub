@@ -324,7 +324,7 @@ function toSingbox($input)
 
 function processConvertion($base64ConfigsList, $configsName = "main")
 {
-    $configsArray = array_filter(explode("\n", base64_decode($base64ConfigsList)), 'strlen');
+$configsArray = array_filter(explode("\n", $base64ConfigsList), 'strlen');
     $structure = json_decode(file_get_contents('structure.json'), true);
     $index = 1;
     $newOutbounds = [];
