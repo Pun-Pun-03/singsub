@@ -1,3 +1,9 @@
+#profile-title: base64:Q29uZmlnIHwgbWFpbg==
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+#support-url: https://t.me/sinavm
+#profile-web-page-url: https://github.com/sinavm/SVM
+
 {
     "log": {
         "level": "fatal"
@@ -35,266 +41,20 @@
             "tag": "proxy",
             "outbounds": [
                 "Best-Ping",
-                " 1 - VLESS - Config : 8080",
-                " 2 - VLESS - Config : 443",
-                " 1 - Trojan - Config : 8443",
-                " 2 - Trojan - Config : 8443",
-                " 3 - Trojan - Config : 8443",
-                " 4 - Trojan - Config : 8080",
-                " 5 - Trojan - Config : 8443",
-                " 6 - Trojan - Config : 443",
-                " 7 - Trojan - Config : 8443",
-                " 8 - Trojan - Config : 8443",
-                " 9 - Trojan - Config : 8443",
                 "direct"
             ]
         },
         {
             "type": "urltest",
             "tag": "Best-Ping",
-            "outbounds": [
-                " 1 - VLESS - Config : 8080",
-                " 2 - VLESS - Config : 443",
-                " 1 - Trojan - Config : 8443",
-                " 2 - Trojan - Config : 8443",
-                " 3 - Trojan - Config : 8443",
-                " 4 - Trojan - Config : 8080",
-                " 5 - Trojan - Config : 8443",
-                " 6 - Trojan - Config : 443",
-                " 7 - Trojan - Config : 8443",
-                " 8 - Trojan - Config : 8443",
-                " 9 - Trojan - Config : 8443"
-            ],
-            "url": "http://cp.cloudflare.com/",
+            "outbounds": [],
+            "url": "http:\/\/cp.cloudflare.com\/",
             "interval": "15m",
             "tolerance": 120
         },
         {
-            "type": "vless",
-            "tag": " 1 - VLESS - Config : 8080",
-            "server": "51.68.215.27",
-            "server_port": 8080,
-            "uuid": "655a6041-0ab8-4a92-ad79-f0dba34f5ace",
-            "flow": "",
-            "tls": {
-                "enabled": false
-            },
-            "transport": {}
-        },
-        {
-            "type": "vless",
-            "tag": " 2 - VLESS - Config : 443",
-            "server": "uk-10.allhubb.info",
-            "server_port": 443,
-            "uuid": "83de4c69-d25b-40c5-a37b-0fb8c5921c2d",
-            "flow": "",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk-10.allhubb.info",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "trojan",
-            "tag": " 1 - Trojan - Config : 8443",
-            "server": "uk-04.allhubb.info",
-            "server_port": 8443,
-            "password": "3d66b6ac7a426653",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk-04.allhubb.info",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "trojan",
-            "tag": " 2 - Trojan - Config : 8443",
-            "server": "uk-01.allhubb.info",
-            "server_port": 8443,
-            "password": "42d956c6a66decda",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk-01.allhubb.info",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "trojan",
-            "tag": " 3 - Trojan - Config : 8443",
-            "server": "uk-05.allhubb.info",
-            "server_port": 8443,
-            "password": "7dad0f46f897498d",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk-05.allhubb.info",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "trojan",
-            "tag": " 4 - Trojan - Config : 8080",
-            "server": "51.195.255.103",
-            "server_port": 8080,
-            "password": "ER2vpLLIXR",
-            "tls": {
-                "enabled": true,
-                "server_name": "51.195.255.103",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "51.195.255.103"
-                }
-            }
-        },
-        {
-            "type": "trojan",
-            "tag": " 5 - Trojan - Config : 8443",
-            "server": "uk-06.allhubb.info",
-            "server_port": 8443,
-            "password": "GByWxfdNiJ",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk-06.allhubb.info",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "trojan",
-            "tag": " 6 - Trojan - Config : 443",
-            "server": "ru2.asc-sam.ir",
-            "server_port": 443,
-            "password": "IM4e0ZQNPU",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "trojan",
-            "tag": " 7 - Trojan - Config : 8443",
-            "server": "uk-02.allhubb.info",
-            "server_port": 8443,
-            "password": "e505990cb147cb64",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk-02.allhubb.info",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "trojan",
-            "tag": " 8 - Trojan - Config : 8443",
-            "server": "uk-07.allhubb.info",
-            "server_port": 8443,
-            "password": "e505990cb147cb64",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk-07.allhubb.info",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "trojan",
-            "tag": " 9 - Trojan - Config : 8443",
-            "server": "uk-08.allhubb.info",
-            "server_port": 8443,
-            "password": "e505990cb147cb64",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk-08.allhubb.info",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
             "type": "direct",
             "tag": "direct"
-        },
-        {
-            "type": "block",
-            "tag": "block"
         }
     ],
     "route": {
@@ -330,14 +90,14 @@
                 "type": "remote",
                 "tag": "geosite-ir",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/refs/heads/rule-set/geosite-ir.srs",
+                "url": "https:\/\/raw.githubusercontent.com\/Chocolate4U\/Iran-sing-box-rules\/refs\/heads\/rule-set\/geosite-ir.srs",
                 "download_detour": "direct"
             },
             {
                 "type": "remote",
                 "tag": "geosite-steam",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/refs/heads/rule-set/geosite-steam.srs",
+                "url": "https:\/\/raw.githubusercontent.com\/Chocolate4U\/Iran-sing-box-rules\/refs\/heads\/rule-set\/geosite-steam.srs",
                 "download_detour": "direct"
             }
         ],
@@ -348,7 +108,7 @@
         "clash_api": {
             "external_controller": "0.0.0.0:9090",
             "external_ui": "zashboard",
-            "external_ui_download_url": "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
+            "external_ui_download_url": "https:\/\/github.com\/Zephyruso\/zashboard\/archive\/refs\/heads\/gh-pages.zip",
             "external_ui_download_detour": "direct",
             "secret": "",
             "default_mode": "rule"
