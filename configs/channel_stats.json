@@ -1,25 +1,25 @@
 {
-  "timestamp": "2025-11-08T16:16:56.128860+00:00",
+  "timestamp": "2025-11-08T16:23:01.972617+00:00",
   "channels": [
     {
       "url": "https://drive.google.com/uc?id=1t6JEHK87a0U-jTzw3n_M7u_fKA2N1LTY&export=download#%E2%AD%90%EF%B8%8FFreeXrayVPN%E2%AD%90%EF%B8%8F",
       "enabled": true,
       "metrics": {
         "total_configs": 1020,
-        "valid_configs": 11,
-        "unique_configs": 11,
-        "avg_response_time": 1.43,
+        "valid_configs": 20,
+        "unique_configs": 20,
+        "avg_response_time": 1.17,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 73.12,
-        "last_success": "2025-11-08T16:16:56.128225+00:00",
+        "overall_score": 73.73,
+        "last_success": "2025-11-08T16:23:01.971800+00:00",
         "protocol_counts": {
           "wireguard://": 0,
           "hysteria2://": 0,
           "vless://": 11,
           "vmess://": 0,
           "ss://": 0,
-          "trojan://": 0,
+          "trojan://": 9,
           "tuic://": 0
         }
       }

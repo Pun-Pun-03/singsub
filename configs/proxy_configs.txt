@@ -21,3 +21,21 @@ vless://fd97d911-df7d-4cd6-b966-bc9602e65dd7@[2001:41d0:801:2000::1c88]:443?type
 
 vless://fddfd7e4-552a-40d8-9f05-03dcff85db65@[2001:41d0:801:2000::2f77]:8443?type=grpc&serviceName=&security=reality&sni=bale.ai&pbk=J0D4uPp89smCjvGcTwLt7AdtXgVugeJ3lll2RIGN82Y&sid=4cbd&fp=chrome&spx=%2F
 
+trojan://3d66b6ac7a426653@uk-04.allhubb.info:8443?type=tcp&security=tls&alpn=h3,h2,http/1.1&sni=uk-04.allhubb.info&fp=randomized
+
+trojan://42d956c6a66decda@uk-01.allhubb.info:8443?type=grpc&serviceName=&security=tls&alpn=h3,h2,http/1.1&sni=uk-01.allhubb.info&fp=chrome
+
+trojan://7dad0f46f897498d@uk-05.allhubb.info:8443?type=tcp&security=tls&alpn=h3,h2,http/1.1&sni=uk-05.allhubb.info&fp=android
+
+trojan://ER2vpLLIXR@51.195.255.103:8080?type=ws&path=/&host=&security=none
+
+trojan://GByWxfdNiJ@uk-06.allhubb.info:8443?type=tcp&security=tls&alpn=h3,h2,http/1.1&sni=uk-06.allhubb.info&fp=random
+
+trojan://IM4e0ZQNPU@ru2.asc-sam.ir:443?type=tcp&security=reality&pbk=f_av3K6BFEs9abRaFgPJMKHz4ElZP7BP34ZlRtxysQ0&fp=random&sni=journalofbigdata.springeropen.com&sid=109cb5faeb6b&spx=%2FyethePcHjaf
+
+trojan://e505990cb147cb64@uk-02.allhubb.info:8443?type=tcp&security=tls&alpn=h3,h2,http/1.1&sni=uk-02.allhubb.info&fp=random
+
+trojan://e505990cb147cb64@uk-07.allhubb.info:8443?type=tcp&security=tls&alpn=h3,h2,http/1.1&sni=uk-07.allhubb.info&fp=random
+
+trojan://e505990cb147cb64@uk-08.allhubb.info:8443?type=tcp&security=tls&alpn=h3,h2,http/1.1&sni=uk-08.allhubb.info&fp=random
+
