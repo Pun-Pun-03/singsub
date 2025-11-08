@@ -403,6 +403,5 @@ function hiddifyHeader($subscriptionName)
     return "#profile-title: base64:" . base64_encode($subscriptionName) . "\n" .
            "#profile-update-interval: 1\n" .
            "#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n" .
-           "#support-url: https://t.me/sinavm\n" .
-           "#profile-web-page-url: https://github.com/sinavm/SVM\n\n";
+           "\n\n";
 }
