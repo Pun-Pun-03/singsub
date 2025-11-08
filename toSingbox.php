@@ -348,7 +348,7 @@ $configsArray = array_filter(explode("\n", $base64ConfigsList), 'strlen');
     return hiddifyHeader($configsName) . json_encode($structure, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
 }
 
-$configsData = file_get_contents("configs/proxy_configs.txt");
+$configsData = file_get_contents("configs/conf.json");
 $convertionResult = processConvertion($configsData, "Config | main");
 file_put_contents("main", $convertionResult);
 
