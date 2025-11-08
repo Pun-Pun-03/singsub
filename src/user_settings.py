@@ -4,11 +4,12 @@
 # Add or remove URLs as needed. All URLs in this list are automatically enabled.
 SOURCE_URLS = [
    #"https://drive.google.com/uc?id=1t6JEHK87a0U-jTzw3n_M7u_fKA2N1LTY&export=download#%E2%AD%90%EF%B8%8FFreeXrayVPN%E2%AD%90%EF%B8%8F"
-   "https://raw.githubusercontent.com/miladtahanian/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt",
+   #"https://raw.githubusercontent.com/miladtahanian/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt",
    "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs_tested.txt",
    #"https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt"
    "https://t.me/s/v2rayngvpn",
    "https://t.me/s/unlimited_v2ray_ng",
+   ″https://t.me/s/NoForcedHeaven″,
    #"https://t.me/s/manVPN",
    #"https://t.me/s/entryNET",
    #"https://t.me/s/V2raysCollector",
@@ -32,7 +33,7 @@ ENABLED_PROTOCOLS = {
     "hysteria2://": False,
     "vless://": True,
     "vmess://": True,
-    "ss://": False,
+    "ss://": True,
     "trojan://": True,
     "tuic://": False,
 }
