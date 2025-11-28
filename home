@@ -53,7 +53,6 @@
             "tag": "Best-Ping",
             "outbounds": [
                 "Local-1",
-                "Local-1",
                 "Local-2",
                 "Local-3",
                 "Config-6"
