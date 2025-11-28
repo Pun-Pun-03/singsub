@@ -42,6 +42,8 @@
                 "Best-Ping",
                 "direct",
                 "Local-1",
+                "Local-2",
+                "Local-3",
                 "Config-6"
 
             ]
@@ -51,6 +53,9 @@
             "tag": "Best-Ping",
             "outbounds": [
                 "Local-1",
+                "Local-1",
+                "Local-2",
+                "Local-3",
                 "Config-6"
             ],
             "url": "http:\/\/cp.cloudflare.com\/",
@@ -62,6 +67,18 @@
             "server": "192.168.100.53",
             "server_port": 6060,
             "tag": "Local-1"
+        },
+        {
+            "type": "socks",
+            "server": "192.168.100.53",
+            "server_port": 6061,
+            "tag": "Local-2"
+        },
+        {
+            "type": "socks",
+            "server": "192.168.100.53",
+            "server_port": 6062,
+            "tag": "Local-3"
         },
         {
             "type": "trojan",
