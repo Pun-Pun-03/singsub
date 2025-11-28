@@ -60,7 +60,7 @@
         {
             "type": "socks",
             "server": "192.168.100.53",
-            "server_port": 9090,
+            "server_port": 6060,
             "tag": "Local-1"
         },
         {
