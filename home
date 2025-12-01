@@ -112,7 +112,8 @@
             },
             {
                 "rule_set": [
-                    "geosite-ir"
+                    "geosite-ir",
+                    "geosite-playstation"
                 ],
                 "outbound": "direct"
             },
@@ -135,6 +136,13 @@
                 "tag": "geosite-ir",
                 "format": "binary",
                 "url": "https:\/\/raw.githubusercontent.com\/Chocolate4U\/Iran-sing-box-rules\/refs\/heads\/rule-set\/geosite-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-playstation",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/refs/heads/rule-set/geosite-playstation.srs",
                 "download_detour": "direct"
             },
             {
