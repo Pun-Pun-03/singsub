@@ -38,37 +38,54 @@
                 "Best-Ping",
                 "direct",
                 "masque",
-                "Config-1",
-                "Config-2",
-                "Config-3",
-                "Config-4",
-                "Config-5",
-                "Config-6",
-                "Config-7",
-                "Config-8",
-                "Config-9",
-                "Config-10",
-                "Config-11",
-                "GB9"
-
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21"
             ]
         },
         {
             "type": "urltest",
             "tag": "Best-Ping",
             "outbounds": [
-                "Config-1",
-                "Config-2",
-                "Config-3",
-                "Config-4",
-                "Config-5",
-                "Config-6",
-                "Config-7",
-                "Config-8",
-                "Config-9",
-                "Config-10",
-                "Config-11",
-                "GB9"
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21"
             ],
             "url": "http:\/\/cp.cloudflare.com\/",
             "interval": "15m",
@@ -80,268 +97,450 @@
             "server_port": 8086,
             "tag": "masque"
         },
-        {
-            "type": "vless",
-            "server": "[2001:41d0:801:2000::5c5e]",
-            "server_port": 443,
-            "detour": "masque",
-            "uuid": "0fe7080f-bdf8-4941-ba5e-09c3ff5cb346",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk",
-                "insecure": false,
-                "alpn": [
-                    "h3",
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                }
-            },
-            "tag": "Config-1"
-        },
-        {
-            "type": "vless",
-            "server": "uk-10.allhubb.info",
-            "server_port": 443,
-            "detour": "masque",
-            "uuid": "83de4c69-d25b-40c5-a37b-0fb8c5921c2d",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk",
-                "insecure": false,
-                "alpn": [
-                    "h3",
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-2"
-        },
-        {
-            "type": "vless",
-            "server": "[2001:41d0:801:2000::64c0]",
-            "server_port": 443,
-            "detour": "masque",
-            "uuid": "9176e932-0b89-4192-a035-d0b2b85b0ed4",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk",
-                "insecure": false,
-                "alpn": [
-                    "h3",
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-3"
-        },
-        {
-            "type": "trojan",
-            "server": "uk-04.allhubb.info",
-            "server_port": 8443,
-            "password": "3d66b6ac7a426653",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk",
-                "insecure": false,
-                "alpn": [
-                    "h3",
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                }
-            },
-            "tag": "Config-4"
-        },
-        {
-            "type": "trojan",
-            "server": "uk-05.allhubb.info",
-            "server_port": 8443,
-            "detour": "masque",
-            "password": "7dad0f46f897498d",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk",
-                "insecure": false,
-                "alpn": [
-                    "h3",
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "android"
-                }
-            },
-            "tag": "Config-5"
-        },
-        {
-            "type": "trojan",
-            "server": "51.195.255.103",
-            "server_port": 8080,
-            "password": "ER2vpLLIXR",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "51.195.255.103"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-6"
-        },
-        {
-            "type": "trojan",
-            "server": "uk-06.allhubb.info",
-            "server_port": 8443,
-            "detour": "masque",
-            "password": "GByWxfdNiJ",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk",
-                "insecure": false,
-                "alpn": [
-                    "h3",
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                }
-            },
-            "tag": "Config-7"
-        },
-        {
-            "type": "trojan",
-            "server": "ru2.asc-sam.ir",
-            "server_port": 443,
-            "password": "IM4e0ZQNPU",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-8"
-        },
-        {
-            "type": "trojan",
-            "server": "uk-02.allhubb.info",
-            "server_port": 8443,
-            "detour": "masque",
-            "password": "e505990cb147cb64",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk",
-                "insecure": false,
-                "alpn": [
-                    "h3",
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                }
-            },
-            "tag": "Config-9"
-        },
-        {
-            "type": "trojan",
-            "server": "uk-07.allhubb.info",
-            "server_port": 8443,
-            "password": "e505990cb147cb64",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk",
-                "insecure": false,
-                "alpn": [
-                    "h3",
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                }
-            },
-            "tag": "Config-10"
-        },
-        {
-            "type": "trojan",
-            "server": "uk-08.allhubb.info",
-            "server_port": 8443,
-            "detour": "masque",
-            "password": "e505990cb147cb64",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "uk",
-                "insecure": false,
-                "alpn": [
-                    "h3",
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                }
-            },
-            "tag": "Config-11"
-        },
     {
       "type": "vless",
-      "tag": "GB9",
+      "tag": "1",
+      "detour": "masque",
+      "server": "[2001:41d0:801:2000::3a44]",
+      "server_port": 443,
+      "uuid": "3313dd42-5c01-454b-a85d-9117004c31a9",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "bale.ai",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "2",
+      "detour": "masque",
+      "server": "uk-01.allhubb.info",
+      "server_port": 8443,
+      "password": "42d956c6a66decda",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-01.allhubb.info",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "3",
+      "detour": "masque",
+      "server": "[2001:41d0:801:2000::1c88]",
+      "server_port": 443,
+      "uuid": "fd97d911-df7d-4cd6-b966-bc9602e65dd7",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "bale.ai",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "4",
+      "detour": "masque",
+      "server": "uk-02.allhubb.info",
+      "server_port": 8443,
+      "password": "e505990cb147cb64",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-02.allhubb.info",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "5",
+      "detour": "masque",
+      "server": "[2001:41d0:801:2000::5c5e]",
+      "server_port": 443,
+      "uuid": "0fe7080f-bdf8-4941-ba5e-09c3ff5cb346",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-03.allhubb.info",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "6",
+      "server": "51.195.255.103",
+      "server_port": 8080,
+      "password": "ER2vpLLIXR",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "51.195.255.103"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "51.195.255.103",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "7",
+      "detour": "masque",
+      "server": "[2001:41d0:801:2000::3547]",
+      "server_port": 443,
+      "uuid": "5d8ecaed-1704-468d-a16d-12120d28c9e8",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "8",
+      "detour": "masque",
+      "server": "uk-04.allhubb.info",
+      "server_port": 8443,
+      "password": "3d66b6ac7a426653",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-04.allhubb.info",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "9",
+      "detour": "masque",
+      "server": "[2001:41d0:801:2000::4635]",
+      "server_port": 443,
+      "uuid": "a292e034-1156-4dc2-9590-04e2632009a4",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "10",
+      "detour": "masque",
+      "server": "uk-05.allhubb.info",
+      "server_port": 8443,
+      "password": "7dad0f46f897498d",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-05.allhubb.info",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "11",
+      "detour": "masque",
+      "server": "51.68.197.174",
+      "server_port": 2095,
+      "uuid": "b57276e4-b28a-4381-aa3c-c0747d57f50f",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/retybcajfgujbiorth?ed=2560",
+        "headers": {
+          "Host": "51.68.197.174"
+        }
+      },
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "12",
+      "detour": "masque",
+      "server": "uk-06.allhubb.info",
+      "server_port": 8443,
+      "password": "EEZOnBcgLR",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-06.allhubb.info",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "13",
+      "detour": "masque",
+      "server": "[2001:41d0:801:2000::4c7b]",
+      "server_port": 443,
+      "uuid": "60587168-e545-4040-8e77-b5824cac24b3",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "14",
+      "detour": "masque",
+      "server": "uk-07.allhubb.info",
+      "server_port": 8443,
+      "password": "e505990cb147cb64",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-07.allhubb.info",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "15",
+      "detour": "masque",
+      "server": "[2001:41d0:801:2000::640b]",
+      "server_port": 443,
+      "uuid": "1eaa523a-dcf4-4c06-977b-6724a6a6ac4b",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "16",
+      "detour": "masque",
+      "server": "uk-08.allhubb.info",
+      "server_port": 8443,
+      "password": "e505990cb147cb64",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-08.allhubb.info",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "17",
+      "detour": "masque",
+      "server": "[2001:41d0:801:2000::64c0]",
+      "server_port": 443,
+      "uuid": "9176e932-0b89-4192-a035-d0b2b85b0ed4",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-09.allhubb.info",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "18",
       "server": "51.68.215.27",
       "server_port": 8080,
-      "detour": "masque",
       "uuid": "655a6041-0ab8-4a92-ad79-f0dba34f5ace",
-      "transport":       {
-        "type": "grpc"
-      },
-      "packet_encoding": "xudp"
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "19",
+      "detour": "masque",
+      "server": "uk-10.allhubb.info",
+      "server_port": 443,
+      "uuid": "5445a4b4-79a3-4877-ba9b-075b08c071fe",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-10.allhubb.info",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "20",
+      "detour": "masque",
+      "server": "[2001:41d0:801:2000::2f77]",
+      "server_port": 8443,
+      "uuid": "fddfd7e4-552a-40d8-9f05-03dcff85db65",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "bale.ai",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "21",
+      "detour": "masque",
+      "server": "ru2.asc-sam.ir",
+      "server_port": 443,
+      "password": "IM4e0ZQNPU",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "journalofbigdata.springeropen.com",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
         {
             "type": "direct",
