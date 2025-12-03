@@ -120,59 +120,7 @@
                 "Config-77",
                 "Config-78",
                 "Config-79",
-                "Config-80",
-                "Config-81",
-                "Config-82",
-                "Config-83",
-                "Config-84",
-                "Config-85",
-                "Config-86",
-                "Config-87",
-                "Config-88",
-                "Config-89",
-                "Config-90",
-                "Config-91",
-                "Config-92",
-                "Config-93",
-                "Config-94",
-                "Config-95",
-                "Config-96",
-                "Config-97",
-                "Config-98",
-                "Config-99",
-                "Config-100",
-                "Config-101",
-                "Config-102",
-                "Config-103",
-                "Config-104",
-                "Config-105",
-                "Config-106",
-                "Config-107",
-                "Config-108",
-                "Config-109",
-                "Config-110",
-                "Config-111",
-                "Config-112",
-                "Config-113",
-                "Config-114",
-                "Config-115",
-                "Config-116",
-                "Config-117",
-                "Config-118",
-                "Config-119",
-                "Config-120",
-                "Config-121",
-                "Config-122",
-                "Config-123",
-                "Config-124",
-                "Config-125",
-                "Config-126",
-                "Config-127",
-                "Config-128",
-                "Config-129",
-                "Config-130",
-                "Config-131",
-                "Config-132"
+                "Config-80"
             ]
         },
         {
@@ -258,59 +206,7 @@
                 "Config-77",
                 "Config-78",
                 "Config-79",
-                "Config-80",
-                "Config-81",
-                "Config-82",
-                "Config-83",
-                "Config-84",
-                "Config-85",
-                "Config-86",
-                "Config-87",
-                "Config-88",
-                "Config-89",
-                "Config-90",
-                "Config-91",
-                "Config-92",
-                "Config-93",
-                "Config-94",
-                "Config-95",
-                "Config-96",
-                "Config-97",
-                "Config-98",
-                "Config-99",
-                "Config-100",
-                "Config-101",
-                "Config-102",
-                "Config-103",
-                "Config-104",
-                "Config-105",
-                "Config-106",
-                "Config-107",
-                "Config-108",
-                "Config-109",
-                "Config-110",
-                "Config-111",
-                "Config-112",
-                "Config-113",
-                "Config-114",
-                "Config-115",
-                "Config-116",
-                "Config-117",
-                "Config-118",
-                "Config-119",
-                "Config-120",
-                "Config-121",
-                "Config-122",
-                "Config-123",
-                "Config-124",
-                "Config-125",
-                "Config-126",
-                "Config-127",
-                "Config-128",
-                "Config-129",
-                "Config-130",
-                "Config-131",
-                "Config-132"
+                "Config-80"
             ],
             "url": "http:\/\/cp.cloudflare.com\/",
             "interval": "15m",
@@ -409,15 +305,6 @@
         },
         {
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "11de8699-8ea6-41a8-be2a-f86169d170db",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-7"
-        },
-        {
-            "type": "vless",
             "server": "141.227.132.7",
             "server_port": 21424,
             "uuid": "20ed0e88-1f8a-47d3-a753-dfc667184dde",
@@ -430,7 +317,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "Config-8"
+            "tag": "Config-7"
         },
         {
             "type": "vless",
@@ -448,7 +335,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-9"
+            "tag": "Config-8"
         },
         {
             "type": "vless",
@@ -464,7 +351,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "Config-10"
+            "tag": "Config-9"
         },
         {
             "type": "vless",
@@ -496,7 +383,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-11"
+            "tag": "Config-10"
         },
         {
             "type": "vless",
@@ -528,7 +415,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-12"
+            "tag": "Config-11"
         },
         {
             "type": "vless",
@@ -537,71 +424,7 @@
             "uuid": "3c336253-a12b-44f3-b6b2-a0c7086f2b3d",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-13"
-        },
-        {
-            "type": "vless",
-            "server": "104.26.0.221",
-            "server_port": 443,
-            "uuid": "3f9c8463-8610-3ed8-86c8-a26713067825",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "dabaius2.sylu.net",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/db10240eb751d6ab",
-                "headers": {
-                    "Host": "dabaius2.sylu.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-14"
-        },
-        {
-            "type": "vless",
-            "server": "104.26.1.221",
-            "server_port": 443,
-            "uuid": "3f9c8463-8610-3ed8-86c8-a26713067825",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "dabaius2.sylu.net",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/db10240eb751d6ab",
-                "headers": {
-                    "Host": "dabaius2.sylu.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-15"
+            "tag": "Config-12"
         },
         {
             "type": "vless",
@@ -610,7 +433,7 @@
             "uuid": "4c8659ab-e49f-4db6-9a87-d0247e98f5ec",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-16"
+            "tag": "Config-13"
         },
         {
             "type": "vless",
@@ -619,7 +442,7 @@
             "uuid": "4df10efe-824a-4579-ab85-50f088f456d4",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-17"
+            "tag": "Config-14"
         },
         {
             "type": "vless",
@@ -628,31 +451,7 @@
             "uuid": "4df10efe-824a-4579-ab85-50f088f456d4",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-18"
-        },
-        {
-            "type": "vless",
-            "server": "46.151.26.197",
-            "server_port": 443,
-            "uuid": "53958b8e-8fa9-4566-a7d4-0f81611d7dbf",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "newser3.ultimateserv.ru",
-                "insecure": false,
-                "alpn": [
-                    "h2",
-                    "http\/1.1"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-19"
+            "tag": "Config-15"
         },
         {
             "type": "vless",
@@ -684,39 +483,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-20"
-        },
-        {
-            "type": "vless",
-            "server": "cosmin.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "53f0bca8-f170-4ef7-8031-c7d441189dbf",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "639000411272217052.swift",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/cahttingws",
-                "headers": {
-                    "Host": "639000411272217052.swift"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-21"
+            "tag": "Config-16"
         },
         {
             "type": "vless",
@@ -748,7 +515,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-22"
+            "tag": "Config-17"
         },
         {
             "type": "vless",
@@ -780,7 +547,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-23"
+            "tag": "Config-18"
         },
         {
             "type": "vless",
@@ -798,7 +565,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-24"
+            "tag": "Config-19"
         },
         {
             "type": "vless",
@@ -816,7 +583,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-25"
+            "tag": "Config-20"
         },
         {
             "type": "vless",
@@ -834,7 +601,7 @@
                 "max_early_data": 512,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             },
-            "tag": "Config-26"
+            "tag": "Config-21"
         },
         {
             "type": "vless",
@@ -859,7 +626,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "Config-27"
+            "tag": "Config-22"
         },
         {
             "type": "vless",
@@ -868,7 +635,7 @@
             "uuid": "54e85bb1-cfdf-46c6-8980-ed859365ab2f",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-28"
+            "tag": "Config-23"
         },
         {
             "type": "vless",
@@ -884,7 +651,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "Config-29"
+            "tag": "Config-24"
         },
         {
             "type": "vless",
@@ -900,7 +667,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "Config-30"
+            "tag": "Config-25"
         },
         {
             "type": "vless",
@@ -916,7 +683,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "Config-31"
+            "tag": "Config-26"
         },
         {
             "type": "vless",
@@ -939,7 +706,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "Config-32"
+            "tag": "Config-27"
         },
         {
             "type": "vless",
@@ -957,39 +724,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-33"
-        },
-        {
-            "type": "vless",
-            "server": "51.195.202.129",
-            "server_port": 443,
-            "uuid": "5f9a4072-603e-4255-a45b-b0970e571de9",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": "zula.ir"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-34"
+            "tag": "Config-28"
         },
         {
             "type": "vless",
@@ -1007,25 +742,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-35"
-        },
-        {
-            "type": "vless",
-            "server": "51.195.119.75",
-            "server_port": 80,
-            "uuid": "6a2bda17-7dd4-450c-83fb-5ae5db27e04d",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/vless\/",
-                "headers": {
-                    "Host": "51.195.119.75"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-36"
+            "tag": "Config-29"
         },
         {
             "type": "vless",
@@ -1057,7 +774,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-37"
+            "tag": "Config-30"
         },
         {
             "type": "vless",
@@ -1089,7 +806,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-38"
+            "tag": "Config-31"
         },
         {
             "type": "vless",
@@ -1098,7 +815,7 @@
             "uuid": "6dd91b61-96b8-403c-856e-9b873405c3bf",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-39"
+            "tag": "Config-32"
         },
         {
             "type": "vless",
@@ -1116,7 +833,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-40"
+            "tag": "Config-33"
         },
         {
             "type": "vless",
@@ -1125,7 +842,7 @@
             "uuid": "7bcfdcf8-fe22-4d40-8707-3249aeb66a5f",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-41"
+            "tag": "Config-34"
         },
         {
             "type": "vless",
@@ -1134,7 +851,7 @@
             "uuid": "7bcfdcf8-fe22-4d40-8707-3249aeb66a5f",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-42"
+            "tag": "Config-35"
         },
         {
             "type": "vless",
@@ -1143,7 +860,7 @@
             "uuid": "7bcfdcf8-fe22-4d40-8707-3249aeb66a5f",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-43"
+            "tag": "Config-36"
         },
         {
             "type": "vless",
@@ -1152,57 +869,7 @@
             "uuid": "7bcfdcf8-fe22-4d40-8707-3249aeb66a5f",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-44"
-        },
-        {
-            "type": "vless",
-            "server": "n1761184282.74qxv.top",
-            "server_port": 443,
-            "uuid": "824dc1b1-e35b-4121-ad73-9acaf13d6410",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "n1761184282.74qxv.top",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/824dc1b1-e35b-4121-ad73-9acaf13d6410",
-                "headers": {
-                    "Host": "n1761184282.74qxv.top"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-45"
-        },
-        {
-            "type": "vless",
-            "server": "172.67.146.171",
-            "server_port": 2095,
-            "uuid": "84c88d37-9bf2-496b-850b-392c37258176",
-            "packet_encoding": "xudp",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam",
-                "headers": {
-                    "Host": "172.67.146.171"
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "Config-46"
+            "tag": "Config-37"
         },
         {
             "type": "vless",
@@ -1220,7 +887,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-47"
+            "tag": "Config-38"
         },
         {
             "type": "vless",
@@ -1245,7 +912,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "Config-48"
+            "tag": "Config-39"
         },
         {
             "type": "vless",
@@ -1254,7 +921,7 @@
             "uuid": "96eb3f1f-d825-4a03-b6f4-28edec9ad827",
             "packet_encoding": "xudp",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-49"
+            "tag": "Config-40"
         },
         {
             "type": "vless",
@@ -1270,7 +937,204 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
+            "tag": "Config-41"
+        },
+        {
+            "type": "vless",
+            "server": "eng24.netliberated.org",
+            "server_port": 443,
+            "uuid": "9c9a0de0-79ed-4cd5-a403-e538349b505d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "eng24.netliberated.org",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "Config-42"
+        },
+        {
+            "type": "vless",
+            "server": "eng24.netliberated.org",
+            "server_port": 8443,
+            "uuid": "9c9a0de0-79ed-4cd5-a403-e538349b505d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "eng24.netliberated.org",
+                "insecure": false,
+                "alpn": [
+                    "h2"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws-vless\/",
+                "headers": {
+                    "Host": "eng24.netliberated.org"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": ""
+            },
+            "tag": "Config-43"
+        },
+        {
+            "type": "vless",
+            "server": "eng24.netliberated.org",
+            "server_port": 8443,
+            "uuid": "9c9a0de0-79ed-4cd5-a403-e538349b505d",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "eng24.netliberated.org",
+                "insecure": false,
+                "alpn": [
+                    "h2"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "Config-44"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 8080,
+            "uuid": "Parsashonam-Bot-39",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam",
+                "headers": {
+                    "Host": "104.17.147.22"
+                },
+                "max_early_data": 2056,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "Config-45"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "Parsashonam-Bot-39",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam",
+                "headers": {
+                    "Host": "104.17.147.22"
+                },
+                "max_early_data": 2056,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "Config-46"
+        },
+        {
+            "type": "vless",
+            "server": "151.101.0.0",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-78",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tag": "Config-47"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "a96d28ab-5018-4604-8fd6-2273f0eccaa4",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "zedmodeon.snapp",
+                "insecure": false,
+                "alpn": [
+                    "h2"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "tag": "Config-48"
+        },
+        {
+            "type": "vless",
+            "server": "51.68.197.174",
+            "server_port": 2095,
+            "uuid": "b57276e4-b28a-4381-aa3c-c0747d57f50f",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "transport": {
+                "type": "ws",
+                "path": "\/retybcajfgujbiorth",
+                "headers": {
+                    "Host": "51.68.197.174"
+                },
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            },
+            "tag": "Config-49"
+        },
+        {
+            "type": "vless",
+            "server": "m23a.vip784.com",
+            "server_port": 33801,
+            "uuid": "b5802512-e06d-4784-bdf2-8c9a411dee74",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
             "tag": "Config-50"
+        },
+        {
+            "type": "vless",
+            "server": "185.36.145.127",
+            "server_port": 6060,
+            "uuid": "bd80ec19-d764-4826-a607-d42bb1b3bc48",
+            "packet_encoding": "xudp",
+            "domain_strategy": "prefer_ipv4",
+            "tls": {
+                "enabled": true,
+                "server_name": "pmo.smnsoft.com",
+                "insecure": false,
+                "alpn": [
+                    "h2",
+                    "http\/1.1"
+                ],
+                "min_version": "1.3",
+                "max_version": "1.3",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "Config-51"
         },
         {
             "type": "trojan",
@@ -1278,161 +1142,7 @@
             "server_port": 11790,
             "password": ".%2BQAJot50sDi6mvb",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-51"
-        },
-        {
-            "type": "trojan",
-            "server": "49.212.204.123",
-            "server_port": 443,
-            "password": "18844%40zxcvbn",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "49.212.204.123",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "tag": "Config-52"
-        },
-        {
-            "type": "trojan",
-            "server": "vn.mjt000.com",
-            "server_port": 443,
-            "password": "1ba48a0e-af2e-45fb-9e15-2b2d4134657c",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "vn.mjt000.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-53"
-        },
-        {
-            "type": "trojan",
-            "server": "103.252.116.138",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "hk.freeguard.org",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-54"
-        },
-        {
-            "type": "trojan",
-            "server": "15.204.248.103",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "rs3.freeguard.org",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-55"
-        },
-        {
-            "type": "trojan",
-            "server": "198.23.229.250",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "rc6.freeguard.org",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-56"
-        },
-        {
-            "type": "trojan",
-            "server": "198.46.152.83",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "sj3.freeguard.org",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-57"
-        },
-        {
-            "type": "trojan",
-            "server": "45.91.171.116",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "sto.freeguard.org",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-58"
         },
         {
             "type": "trojan",
@@ -1461,7 +1171,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "Config-59"
+            "tag": "Config-53"
         },
         {
             "type": "trojan",
@@ -1490,7 +1200,7 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             },
-            "tag": "Config-60"
+            "tag": "Config-54"
         },
         {
             "type": "trojan",
@@ -1514,183 +1224,7 @@
                     "fingerprint": "randomized"
                 }
             },
-            "tag": "Config-61"
-        },
-        {
-            "type": "trojan",
-            "server": "nextstepcareer.online",
-            "server_port": 443,
-            "password": "4732adfa16c6450bbef87264e41332db",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "nextstepcareer.online",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-62"
-        },
-        {
-            "type": "trojan",
-            "server": "nextstepcareer.online",
-            "server_port": 443,
-            "password": "4732adfa16c6450bbef87264e41332db",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "nextstepcareer.online",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-63"
-        },
-        {
-            "type": "trojan",
-            "server": "37.114.62.218",
-            "server_port": 443,
-            "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "45.32.28.232",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-64"
-        },
-        {
-            "type": "trojan",
-            "server": "my.singaporenodeserverone.kyiv.ua",
-            "server_port": 443,
-            "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "45.32.28.232",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-65"
-        },
-        {
-            "type": "trojan",
-            "server": "15.197.162.184",
-            "server_port": 443,
-            "password": "7778e684-f435-4166-bf9e-0256cb28bf10",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "download2hkt.windowsupdate.lol",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-66"
-        },
-        {
-            "type": "trojan",
-            "server": "15.197.162.184",
-            "server_port": 443,
-            "password": "7778e684-f435-4166-bf9e-0256cb28bf10",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "download2hkt.windowsupdate.lol",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-67"
-        },
-        {
-            "type": "trojan",
-            "server": "download2hkt.windowsupdate.lol",
-            "server_port": 443,
-            "password": "7778e684-f435-4166-bf9e-0256cb28bf10",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "download2hkt.windowsupdate.lol",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-68"
-        },
-        {
-            "type": "trojan",
-            "server": "160.16.214.6",
-            "server_port": 2760,
-            "password": "79314e99f0a473fe86efc7827942ad00",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.nintendogames.net",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-69"
+            "tag": "Config-55"
         },
         {
             "type": "trojan",
@@ -1712,7 +1246,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "Config-70"
+            "tag": "Config-56"
         },
         {
             "type": "trojan",
@@ -1736,164 +1270,7 @@
                     "fingerprint": "android"
                 }
             },
-            "tag": "Config-71"
-        },
-        {
-            "type": "trojan",
-            "server": "138.2.114.255",
-            "server_port": 443,
-            "password": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "138.2.114.255",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-72"
-        },
-        {
-            "type": "trojan",
-            "server": "20.255.74.102",
-            "server_port": 443,
-            "password": "8aab51da-6b67-4bd2-b6e6-5ab3008cf53e",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "jp.iamnotagoodman.com",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-73"
-        },
-        {
-            "type": "trojan",
-            "server": "104.17.147.22",
-            "server_port": 443,
-            "password": "8f635e20-71c9-11ef-aaf7-1239d0255272",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "usa.test3.net",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/howdy",
-                "headers": {
-                    "Host": "usa.test3.net"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-74"
-        },
-        {
-            "type": "trojan",
-            "server": "auto.wgnmdgfw.com",
-            "server_port": 16327,
-            "password": "90f45c05-917f-3b1b-a582-899cfe4cf7b3",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "eplcgame.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-75"
-        },
-        {
-            "type": "trojan",
-            "server": "hinet.mjt000.com",
-            "server_port": 443,
-            "password": "92435aa8-f3b6-466a-ad58-c55cbb6d2acf",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "hinet.mjt000.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-76"
-        },
-        {
-            "type": "trojan",
-            "server": "official.taipeicitygovernment.co.ua",
-            "server_port": 8443,
-            "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "207.148.100.75",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-77"
-        },
-        {
-            "type": "trojan",
-            "server": "104.26.15.138",
-            "server_port": 2053,
-            "password": "Aimer",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-78"
-        },
-        {
-            "type": "trojan",
-            "server": "162.159.38.101",
-            "server_port": 2096,
-            "password": "Aimer",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-79"
+            "tag": "Config-57"
         },
         {
             "type": "trojan",
@@ -1901,7 +1278,7 @@
             "server_port": 443,
             "password": "BxceQaOe",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-80"
+            "tag": "Config-58"
         },
         {
             "type": "trojan",
@@ -1923,37 +1300,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "Config-81"
-        },
-        {
-            "type": "trojan",
-            "server": "16.163.138.120",
-            "server_port": 2752,
-            "password": "BxceQaOe",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-82"
-        },
-        {
-            "type": "trojan",
-            "server": "16.163.138.120",
-            "server_port": 2752,
-            "password": "BxceQaOe",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "t.me",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-83"
+            "tag": "Config-59"
         },
         {
             "type": "trojan",
@@ -1975,7 +1322,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "Config-84"
+            "tag": "Config-60"
         },
         {
             "type": "trojan",
@@ -1983,7 +1330,7 @@
             "server_port": 443,
             "password": "BxceQaOe",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-85"
+            "tag": "Config-61"
         },
         {
             "type": "trojan",
@@ -1991,7 +1338,7 @@
             "server_port": 443,
             "password": "BxceQaOe",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-86"
+            "tag": "Config-62"
         },
         {
             "type": "trojan",
@@ -2013,7 +1360,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "Config-87"
+            "tag": "Config-63"
         },
         {
             "type": "trojan",
@@ -2021,7 +1368,7 @@
             "server_port": 443,
             "password": "BxceQaOe",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-88"
+            "tag": "Config-64"
         },
         {
             "type": "trojan",
@@ -2043,7 +1390,7 @@
                     "fingerprint": "chrome"
                 }
             },
-            "tag": "Config-89"
+            "tag": "Config-65"
         },
         {
             "type": "trojan",
@@ -2067,7 +1414,7 @@
                     "fingerprint": "random"
                 }
             },
-            "tag": "Config-90"
+            "tag": "Config-66"
         },
         {
             "type": "trojan",
@@ -2084,7 +1431,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-91"
+            "tag": "Config-67"
         },
         {
             "type": "trojan",
@@ -2092,15 +1439,7 @@
             "server_port": 443,
             "password": "IM4e0ZQNPU",
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-92"
-        },
-        {
-            "type": "trojan",
-            "server": "104.21.37.37",
-            "server_port": 443,
-            "password": "WOeXShhJpL",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-93"
+            "tag": "Config-68"
         },
         {
             "type": "trojan",
@@ -2131,237 +1470,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-94"
-        },
-        {
-            "type": "trojan",
-            "server": "20.205.37.136",
-            "server_port": 443,
-            "password": "aef2ca33-b162-409f-8f16-4c736c338412",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "20.205.37.136",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-95"
-        },
-        {
-            "type": "trojan",
-            "server": "download2hkt.windowsupdate.lol",
-            "server_port": 443,
-            "password": "af4d2493-9156-4514-9f6b-ee5d1a1e4713",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "download2hkt.windowsupdate.lol",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-96"
-        },
-        {
-            "type": "trojan",
-            "server": "104.21.90.210",
-            "server_port": 443,
-            "password": "auto",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-97"
-        },
-        {
-            "type": "trojan",
-            "server": "159.246.55.132",
-            "server_port": 443,
-            "password": "auto",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-98"
-        },
-        {
-            "type": "trojan",
-            "server": "104.17.97.5",
-            "server_port": 2053,
-            "password": "bIa-DailY_cOnFIgs",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-99"
-        },
-        {
-            "type": "trojan",
-            "server": "23.227.60.8",
-            "server_port": 443,
-            "password": "bpb-trojan",
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-100"
-        },
-        {
-            "type": "trojan",
-            "server": "au.mjt000.com",
-            "server_port": 443,
-            "password": "c85761bc-5d74-4ae5-b525-0d32443182fa",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "au.mjt000.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-101"
-        },
-        {
-            "type": "trojan",
-            "server": "il.mjt000.com",
-            "server_port": 443,
-            "password": "c85761bc-5d74-4ae5-b525-0d32443182fa",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "il.mjt000.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-102"
-        },
-        {
-            "type": "trojan",
-            "server": "kp.mjt000.com",
-            "server_port": 443,
-            "password": "c85761bc-5d74-4ae5-b525-0d32443182fa",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "kp.mjt000.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-103"
-        },
-        {
-            "type": "trojan",
-            "server": "pt.mjt000.com",
-            "server_port": 443,
-            "password": "c85761bc-5d74-4ae5-b525-0d32443182fa",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "pt.mjt000.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-104"
-        },
-        {
-            "type": "trojan",
-            "server": "waphk.mjt000.com",
-            "server_port": 443,
-            "password": "c85761bc-5d74-4ae5-b525-0d32443182fa",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "waphk.mjt000.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-105"
-        },
-        {
-            "type": "trojan",
-            "server": "160.16.214.6",
-            "server_port": 2760,
-            "password": "dd2f25b4c70689de8bc0f7fa9d6591cb",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.nintendogames.net",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-106"
-        },
-        {
-            "type": "trojan",
-            "server": "usla.mjt000.com",
-            "server_port": 443,
-            "password": "e4af2638-bb12-4e4a-84f1-a032e23ca63f",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "usla.mjt000.com",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-107"
+            "tag": "Config-69"
         },
         {
             "type": "trojan",
@@ -2385,7 +1494,7 @@
                     "fingerprint": "random"
                 }
             },
-            "tag": "Config-108"
+            "tag": "Config-70"
         },
         {
             "type": "trojan",
@@ -2409,7 +1518,7 @@
                     "fingerprint": "random"
                 }
             },
-            "tag": "Config-109"
+            "tag": "Config-71"
         },
         {
             "type": "trojan",
@@ -2433,29 +1542,7 @@
                     "fingerprint": "random"
                 }
             },
-            "tag": "Config-110"
-        },
-        {
-            "type": "trojan",
-            "server": "fast1.swjtu.work",
-            "server_port": 443,
-            "password": "zzyzzy0512",
-            "domain_strategy": "prefer_ipv4",
-            "tls": {
-                "enabled": true,
-                "server_name": "fast1.swjtu.work",
-                "insecure": true,
-                "alpn": [
-                    "h3"
-                ],
-                "min_version": "1.3",
-                "max_version": "1.3",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "tag": "Config-111"
+            "tag": "Config-72"
         },
         {
             "type": "vmess",
@@ -2465,7 +1552,7 @@
             "security": "auto",
             "alter_id": 0,
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-112"
+            "tag": "Config-73"
         },
         {
             "type": "vmess",
@@ -2475,56 +1562,7 @@
             "security": "auto",
             "alter_id": 0,
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-113"
-        },
-        {
-            "type": "vmess",
-            "server": "82.198.246.97",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-114"
-        },
-        {
-            "type": "vmess",
-            "server": "82.198.246.97",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-115"
-        },
-        {
-            "type": "vmess",
-            "server": "82.198.246.97",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "tag": "Config-116"
-        },
-        {
-            "type": "vmess",
-            "server": "47.242.140.52",
-            "server_port": 48219,
-            "uuid": "006893c6-79b1-4c44-94ff-b8bbea065f1f",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-117"
+            "tag": "Config-74"
         },
         {
             "type": "vmess",
@@ -2543,83 +1581,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-118"
-        },
-        {
-            "type": "vmess",
-            "server": "47.242.140.52",
-            "server_port": 9756,
-            "uuid": "c77628dd-51e7-4996-a408-aaab8baaf79e",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-119"
-        },
-        {
-            "type": "vmess",
-            "server": "47.242.162.235",
-            "server_port": 10806,
-            "uuid": "26175245-f147-4eb5-b488-ad958983d396",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-120"
-        },
-        {
-            "type": "vmess",
-            "server": "47.242.162.235",
-            "server_port": 13767,
-            "uuid": "d77fcaf1-8356-47bc-8883-a80d15e1bd78",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-121"
-        },
-        {
-            "type": "vmess",
-            "server": "47.243.51.237",
-            "server_port": 27165,
-            "uuid": "be5f65df-e104-4e2a-9391-d10454da7df1",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-122"
+            "tag": "Config-75"
         },
         {
             "type": "vmess",
@@ -2638,45 +1600,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-123"
-        },
-        {
-            "type": "vmess",
-            "server": "47.250.45.234",
-            "server_port": 8613,
-            "uuid": "80039b4d-bac0-4f89-82c7-54fad3b0a1ea",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "Config-124"
-        },
-        {
-            "type": "vmess",
-            "server": "47.250.45.234",
-            "server_port": 8613,
-            "uuid": "80039b4d-bac0-4f89-82c7-54fad3b0a1ea",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "Config-125"
+            "tag": "Config-76"
         },
         {
             "type": "vmess",
@@ -2695,7 +1619,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-126"
+            "tag": "Config-77"
         },
         {
             "type": "vmess",
@@ -2705,7 +1629,7 @@
             "security": "auto",
             "alter_id": 0,
             "domain_strategy": "prefer_ipv4",
-            "tag": "Config-127"
+            "tag": "Config-78"
         },
         {
             "type": "vmess",
@@ -2724,64 +1648,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-128"
-        },
-        {
-            "type": "vmess",
-            "server": "149.30.232.103",
-            "server_port": 31469,
-            "uuid": "5381445d-6ae4-4948-b61a-a16d9498d21b",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "Config-129"
-        },
-        {
-            "type": "vmess",
-            "server": "149.30.232.103",
-            "server_port": 18393,
-            "uuid": "2c1807ce-6a63-4451-9add-a778d2507160",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 2048,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            },
-            "tag": "Config-130"
-        },
-        {
-            "type": "vmess",
-            "server": "cgroup.node5.v.nodelist-airport.com",
-            "server_port": 6542,
-            "uuid": "8f3a835c-8a45-480d-ae35-1deb2c52dcae",
-            "security": "auto",
-            "alter_id": 0,
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-131"
+            "tag": "Config-79"
         },
         {
             "type": "vmess",
@@ -2800,7 +1667,7 @@
                 "max_early_data": 0,
                 "early_data_header_name": ""
             },
-            "tag": "Config-132"
+            "tag": "Config-80"
         },
         {
             "type": "direct",
