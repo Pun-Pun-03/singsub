@@ -13,13 +13,9 @@ vless://0e0df131-29f5-4725-b9a3-7b1a6cac4c95@plr.strelkavpn.ru:8443?encryption=n
 
 vless://0fe7080f-bdf8-4941-ba5e-09c3ff5cb346@[2001:41d0:801:2000::5c5e]:443?type=tcp&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&sni=uk-03.allhubb.info&fp=random&flow=xtls-rprx-vision
 
-vless://1e503e46-5ab8-4f79-8cd1-73bac4bcd102@104.234.4.120:8080?encryption=none&flow=xtls-rprx-vision&security=reality&sni=swdist.apple.com&fp=chrome&pbk=synxygq0ozctiW0jNF1mmvAI9PainW0rBfqe11LkeAM&type=tcp&headerType=none
-
 vless://1eaa523a-dcf4-4c06-977b-6724a6a6ac4b@[2001:41d0:801:2000::640b]:443?type=grpc&serviceName=&security=reality&sni=google.com&pbk=E-0-0mU9utUHWe2vmxaWZsN5oY6NWD6J9cPhop7T0z8&sid=628fab48&fp=chrome&spx=%2F
 
 vless://20ed0e88-1f8a-47d3-a753-dfc667184dde@141.227.132.7:21424?encryption=none&security=none&type=grpc&authority=&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&mode=gun
-
-vless://2a325803-9458-455d-ad20-e51fab100145@51.68.198.51:8080?encryption=none&security=none&type=ws&path=%2FYUYETrenyklxeoyemeWFCrneerV
 
 vless://3313dd42-5c01-454b-a85d-9117004c31a9@[2001:41d0:801:2000::3a44]:443?type=tcp&security=reality&sni=bale.ai&pbk=z4C20XPr0tp1Ki23u5v2b-YjO3Kdgm5gqDMb4DhWOHc&sid=e07ead&fp=chrome&spx=%2F&flow=xtls-rprx-vision
 
@@ -39,8 +35,6 @@ vless://4c8659ab-e49f-4db6-9a87-d0247e98f5ec@m61a.vip784.com:33801?encryption=no
 
 vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?encryption=none&security=none&sni=Zula.ir&type=tcp&headerType=none
 
-vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?encryption=none&security=none&type=tcp&headerType=none
-
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@brenna.ns.cloudflare.com:443?encryption=none&security=tls&sni=639000411272225027.swift-amsin.info&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=639000411272225027.swift-amsin.info&path=%2Fcahttingws
 
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@cosmin.ns.cloudflare.com:443?encryption=none&security=tls&sni=639000411272217052.swift-amsin.info&fp=chrome&insecure=1&allowInsecure=1&type=ws&host=639000411272217052.swift-amsin.info&path=%2Fcahttingws
@@ -49,13 +43,9 @@ vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@cosmin.ns.cloudflare.com:443?encryp
 
 vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@37.120.184.180:80?encryption=none&security=none&type=ws&host=cdn.ir&path=%2Fnews
 
-vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@37.120.186.241:80?encryption=none&security=none&type=ws&host=cdn.ir&path=%2Fnews
-
 vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@37.120.186.241:80?encryption=none&security=none&type=ws&host=cdn.ir&path=%2Fnews%23TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512
 
 vless://5445a4b4-79a3-4877-ba9b-075b08c071fe@uk-10.allhubb.info:443?type=xhttp&path=%2FRWtshbknhebE&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&sni=uk-10.allhubb.info&fp=chrome
-
-vless://54e85bb1-cfdf-46c6-8980-ed859365ab2f@speedtestcustom.com:80?encryption=none&security=none&type=xhttp&host=hazaraedge.bh&path=%2FTelegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs%3Fed%3D80&mode=auto
 
 vless://5513d21b-1f8a-43e2-9697-f799b1ee699c@141.227.160.163:25538?encryption=none&security=none&type=grpc&authority=&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&mode=gun
 
@@ -149,10 +139,6 @@ vless://669be00c-67b4-4b87-b08f-311c45abced2@us.atlanta-internet.ru:443?encrypti
 
 vless://6a2bda17-7dd4-450c-83fb-5ae5db27e04d@51.195.119.75:80?encryption=none&security=none&type=ws&host=%40v2ray_configs_pools&path=%2Fvless%2F
 
-vless://6a6f5102-de1b-4513-bde9-07d22d4889d5@45.83.22.118:443?encryption=none&security=tls&sni=zula.ir&fp=chrome&insecure=1&allowInsecure=1&type=ws&path=%2Fws
-
-vless://6d8d8b48-6c77-45a7-bc9a-afaed748e781@74.119.193.40:443?encryption=none&security=tls&sni=zula.ir&fp=chrome&insecure=1&allowInsecure=1&type=ws&path=%2Fws
-
 vless://6dd91b61-96b8-403c-856e-9b873405c3bf@m43a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir
 
 vless://77fb812d-2eb5-430e-afea-ccacc9795a86@speedtest.net:80?encryption=none&security=none&type=ws&host=downloadha.global.ssl.fastly.net&path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN
@@ -175,8 +161,6 @@ vless://805b52df-0581-495b-b8b5-b99594424053@gos9.portal-guard.com:8443?encrypti
 
 vless://8cb093ce-2df7-4a17-8d81-1a079894ff9b@95.163.251.188:1932?encryption=none&security=reality&sni=web.max.ru&fp=ios&pbk=Uck1bNgjloBxNMAJWkPWcHls5ma82NO8k37LJs9NMEU&sid=8aeb403dcec2a875&type=grpc&authority=&serviceName=grpc&mode=gun
 
-vless://8e2da759-bd9f-457b-c4b8-2ba1bab65002@103.229.96.181:8443?encryption=none&security=none&type=ws&path=%2Fadmin
-
 vless://9176e932-0b89-4192-a035-d0b2b85b0ed4@[2001:41d0:801:2000::64c0]:443?type=tcp&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&sni=uk-09.allhubb.info&fp=chrome
 
 vless://953d937c-3b44-4be4-91c3-6cc27de2dc89@0wtadbshb4f3.zozodogg.com:2053?encryption=none&security=reality&sni=tgju.org&fp=firefox&pbk=_80k9z8fjFgVyF8jg79QuH6hc0gm0eztMq04rgBu8lw&sid=e1be54&spx=%2F&type=grpc&authority=Tel%3A%40VPN_KING_V2RAY&serviceName=Tel%3A%40VPN_KING_V2RAY%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY%20%40VPN_KING_V2RAY&mode=gun
@@ -187,25 +171,7 @@ vless://9a72a732-2073-40d9-b014-c1895cadd0c6@194.182.79.236:24563?encryption=non
 
 vless://9b0c1d6e-7f6e-4b06-96ba-b8a397a69166@23.152.200.180:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.bing.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&type=tcp&headerType=none
 
-vless://9b0c1d6e-7f6e-4b06-96ba-b8a397a69166@usa29.unlockmatrix.org:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.bing.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&type=tcp&headerType=none
-
-vless://9b0c1d6e-7f6e-4b06-96ba-b8a397a69166@usa29.unlockmatrix.org:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.bing.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&type=tcp&headerType=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-
-vless://9b0c1d6e-7f6e-4b06-96ba-b8a397a69166@usa29.unlockmatrix.org:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.bing.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&type=tcp&headerType=none&host=%2F%3FBIA_TELEGRAM%40V2rayBaaz
-
-vless://9b0c1d6e-7f6e-4b06-96ba-b8a397a69166@usa29.unlockmatrix.org:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.bing.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&type=tcp&headerType=none&host=Join---nitruStore---Join---nitruStore%0AJoin---nitruStore---Join---nitruStore%0AJoin---nitruStore---Join---nitruStore%0AJoin---nitruStore---Join---nitruStore%0AJoin---nitruStore---Join---nitruStore%0AJoin---nitruStore---Join---nitruStore
-
-vless://9b0c1d6e-7f6e-4b06-96ba-b8a397a69166@usa29.unlockmatrix.org:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.bing.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&type=tcp&headerType=none&host=Join---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStore
-
 vless://9c79aceb-4649-44ea-9698-b5e9ecf6d6da@156.229.161.107:10001?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.icloud.com&fp=chrome&pbk=4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4&sid=fb2c6678&type=tcp&headerType=none
-
-vless://9c9a0de0-79ed-4cd5-a403-e538349b505d@eng24.netliberated.org:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=eng24.netliberated.org&insecure=0&allowInsecure=0&type=tcp&headerType=none
-
-vless://9c9a0de0-79ed-4cd5-a403-e538349b505d@eng24.netliberated.org:8443?encryption=none&security=tls&sni=eng24.netliberated.org&alpn=h2&insecure=0&allowInsecure=0&type=ws&host=eng24.netliberated.org&path=%2Fws-vless%2F
-
-vless://9c9a0de0-79ed-4cd5-a403-e538349b505d@eng24.netliberated.org:8443?encryption=none&security=tls&sni=eng24.netliberated.org&alpn=h2&insecure=0&allowInsecure=0&type=xhttp&path=%2Fapi%2Fv1%2F&mode=auto
-
-vless://9e460075-dcb2-504a-b3d9-aab5c3095442@185.140.14.166:8443?encryption=none&security=reality&sni=www.microsoft.com&fp=chrome&pbk=qdcM4h1uoHcpGw_QnU99NnUXgcjDFyoE-E1_Ili3Xgo&sid=3471fa2412678660&type=tcp&headerType=none
 
 vless://Parsashonam-Bot-39@104.17.147.22:8080?encryption=none&security=none&type=ws&host=Fi.Parsashonam.CfD.&path=%2FParsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam%3Fed%3D2056%3Fed%3D2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
 
@@ -227,6 +193,40 @@ vless://b5802512-e06d-4784-bdf2-8c9a411dee74@m23a.vip784.com:33801?encryption=no
 
 vless://bd80ec19-d764-4826-a607-d42bb1b3bc48@185.36.145.127:6060?encryption=none&security=tls&sni=pmo.smnsoft.com&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=tcp&headerType=none
 
+vless://be2d41c0-50d5-49f8-d309-f6fd923063f7@75.102.51.220:443?encryption=none&security=tls&sni=ustc.dysenv2ray.top&insecure=1&allowInsecure=1&type=ws&path=%2Fustc_dysen_20206
+
+vless://be32c9ad-92e1-485b-dc74-2a65e9dae480@86.107.168.100:7070?encryption=none&security=tls&sni=src.smnsoft.com&alpn=h2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none
+
+vless://be32c9ad-92e1-485b-dc74-2a65e9dae480@86.107.168.100:7070?encryption=none&security=tls&sni=src.smnsoft.com&fp=chrome&alpn=h2%2Chttp%2F1.1&insecure=0&allowInsecure=0&type=tcp&headerType=none
+
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@45.61.150.49:50858?encryption=none&security=tls&alpn=h2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none
+
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@45.61.150.49:50858?encryption=none&security=tls&alpn=h2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none&host=Join---nitruStore---Join---nitruStore%0AJoin---nitruStore---Join---nitruStore%0AJoin---nitruStore---Join---nitruStore%0AJoin---nitruStore---Join---nitruStore%0AJoin---nitruStore---Join---nitruStore%0AJoin---nitruStore---Join---nitruStore
+
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@45.61.150.49:50858?encryption=none&security=tls&alpn=h2%2Chttp%2F1.1&insecure=1&allowInsecure=1&type=tcp&headerType=none&host=Join---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStore
+
+vless://c6d0b921-0d7f-4c38-986c-7ce06fa50fc5@141.227.162.151:33918?encryption=none&security=none&type=grpc&authority=&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&mode=gun
+
+vless://c99262ae-ee77-4dac-8437-2d7f68fd3938@m39a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir
+
+vless://cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c@wolfy.ufavpn.ru:27121?encryption=none&security=reality&sni=www.ok.ru&fp=chrome&pbk=QNLEBa5tV9JCrubA4hlAWhho06ddr2dtsT8LKZsGTgA&sid=fdc8125ea6f61323&type=tcp&headerType=none
+
+vless://d5a84e34-2e81-4de9-95bb-e606d585c8fb@test.fast.hosting-ip.com:80?encryption=none&security=none&type=xhttp&host=starmnks.net&path=%2F%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420--------%40EXPRESSVPN_420&mode=auto
+
+vless://d99650a4-31fd-4d1a-b642-f9323732ce93@141.227.140.217:23989?encryption=none&security=none&type=grpc&authority=&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&mode=gun
+
+vless://ee6f696e-c11e-4479-8402-20163b2074a6@141.227.166.221:13158?encryption=none&security=none&type=grpc&authority=&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&mode=gun
+
+vless://f0075296-2b03-42ef-a4cd-491804eb9da1@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir
+
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@25.25.25.253:2096?encryption=none&security=tls&sni=gaosir.unfeeling.sbs&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=gaosir.unfeeling.sbs&path=%2F--%40V2RAYNPLUS--%40V2RAYNPLUS--%40V2RAYNPLUS--%40V2RAYNPLUS--%40V2RAYNPLUS
+
+vless://f61d9aee-63b8-439e-bebf-afaa53c015fd@170.64.232.45:28899?encryption=none&flow=xtls-rprx-vision&security=reality&sni=s0.awsstatic.com&fp=chrome&pbk=UcJ-s55xl9msAtzJcBghDUTSnyilzB6d7NpUfkHoQmY&type=tcp&headerType=none
+
+vless://fab1b36f-1437-4cf7-baad-6988f71b6e06@v2ngnet.huqpmfood.ir:4455?encryption=none&security=reality&sni=stackoverflow.com&fp=chrome&pbk=18l7-wCCLwKZn-slnEV1HlM-ocxV94nau8CHNEpv3Ew&sid=077dc29a23d311f2&type=xhttp&path=%2F%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet&mode=auto&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D
+
+vless://fabc8a38-76c5-48fe-ada7-a9e52dd16225@179.61.251.78:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=refersion.com&fp=chrome&pbk=esHsu3-Fj0aZ0xuNBV6qW1zu1hLbas8YDn7AO0QGsBw&sid=0ff58d687a4c6c&spx=%2F&type=tcp&headerType=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+
 trojan://.%2BQAJot50sDi6mvb@5.188.108.13:11790?security=tls&sni=%F0%9F%94%92&insecure=1&allowInsecure=1&type=tcp&headerType=none
 
 trojan://3c4e10af98c30972@23.247.137.64:443?security=tls&sni=n2.gladns.com&fp=chrome&alpn=h2&insecure=0&allowInsecure=0&type=grpc&authority=&serviceName=db&mode=gun
@@ -237,8 +237,6 @@ trojan://3d66b6ac7a426653@uk-04.allhubb.info:8443?type=tcp&security=tls&alpn=h3,
 
 trojan://42d956c6a66decda@uk-01.allhubb.info:8443?type=grpc&serviceName=&security=tls&alpn=h3,h2,http/1.1&sni=uk-01.allhubb.info&fp=chrome
 
-trojan://79314e99f0a473fe86efc7827942ad00@160.16.214.6:4054?security=tls&sni=www.nintendogames.net&insecure=0&allowInsecure=0&type=tcp&headerType=none
-
 trojan://7dad0f46f897498d@uk-05.allhubb.info:8443?type=tcp&security=tls&alpn=h3,h2,http/1.1&sni=uk-05.allhubb.info&fp=android
 
 trojan://BxceQaOe@112.118.116.66:443?security=tls&sni=%F0%9F%94%92&insecure=1&allowInsecure=1&type=tcp&headerType=none
@@ -246,12 +244,6 @@ trojan://BxceQaOe@112.118.116.66:443?security=tls&sni=%F0%9F%94%92&insecure=1&al
 trojan://BxceQaOe@112.118.116.66:443?security=tls&sni=t.me%252Fripaojiedian&insecure=1&allowInsecure=1&type=tcp&headerType=none
 
 trojan://BxceQaOe@58.152.18.95:443?security=tls&insecure=1&allowInsecure=1&type=tcp&headerType=none
-
-trojan://BxceQaOe@58.152.18.95:443?security=tls&sni=%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD&insecure=1&allowInsecure=1&type=tcp&headerType=none
-
-trojan://BxceQaOe@58.152.18.95:443?security=tls&sni=%F0%9F%94%92&insecure=1&allowInsecure=1&type=tcp&headerType=none
-
-trojan://BxceQaOe@58.152.18.95:443?security=tls&sni=t.me%252Fripaojiedian&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none
 
 trojan://BxceQaOe@58.152.30.175:443?security=tls&sni=%F0%9F%94%92&insecure=1&allowInsecure=1&type=tcp&headerType=none
 
@@ -276,10 +268,6 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIj4+QFYyUkFZX1ZNRVNTX2ZyZWU6OlRSIiwNCiAg
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIldpRmktQFYycmF5QWxwaGEtLTMiLA0KICAiYWRkIjogIjgyLjE5OC4yNDYuOTciLA0KICAicG9ydCI6ICIxODAiLA0KICAiaWQiOiAiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiLA0KICAiaW5zZWN1cmUiOiAiMCINCn0=
 
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFRFx1RDgzQ1x1RERGMEhLLTQ3LjI0Mi4xNDAuNTItNjI3NyIsDQogICJhZGQiOiAiNDcuMjQyLjE0MC41MiIsDQogICJwb3J0IjogIjM0ODE1IiwNCiAgImlkIjogIjFhNDZiNjZjLTZiYTktNGU5Yy1hYTBiLTBlYmFjMmI2OWUzMiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJhdXRvIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiL2Fya2kiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiIsDQogICJpbnNlY3VyZSI6ICIwIg0KfQ==
-
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFRFx1RDgzQ1x1RERGMEhLLTQ3LjI0My41MS4yMzctNjI1NiIsDQogICJhZGQiOiAiNDcuMjQzLjUxLjIzNyIsDQogICJwb3J0IjogIjIzNTU5IiwNCiAgImlkIjogImUzZjRjYjBlLTNiM2QtNDFhZC1iMjRhLTljYmMyOTI3YjQ1MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJhdXRvIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiL2Fya2kiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiIsDQogICJpbnNlY3VyZSI6ICIwIg0KfQ==
-
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERGOFx1RDgzQ1x1RERFOFNDLTE1Ni4yMzguMjM4LjE5NC02MzE4IiwNCiAgImFkZCI6ICIxNTYuMjM4LjIzOC4xOTQiLA0KICAicG9ydCI6ICI0NzI5NiIsDQogICJpZCI6ICIwNTI0MjM2YS1lMjE3LTRjZjMtOTIyMy05NjhhMjkwZmZjZTciLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAiYXV0byIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIi8iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiIsDQogICJpbnNlY3VyZSI6ICIwIg0KfQ==
 
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERGQVx1RDgzQ1x1RERGOCBVU+e+juWbvShtaWJlaTc3LmNvbSDnsbPotJ3oioLngrnliIbkuqspIiwNCiAgImFkZCI6ICI4Mi4xOTguMjQ2Ljk3IiwNCiAgInBvcnQiOiAiMTgwIiwNCiAgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIi8iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiIsDQogICJpbnNlY3VyZSI6ICIwIg0KfQ==
 
