@@ -3,7 +3,8 @@
 # List of source URLs to fetch proxy configurations from.
 # Add or remove URLs as needed. All URLs in this list are automatically enabled.
 SOURCE_URLS = [
-   "https://drive.google.com/uc?id=1t6JEHK87a0U-jTzw3n_M7u_fKA2N1LTY&export=download#%E2%AD%90%EF%B8%8FFreeXrayVPN%E2%AD%90%EF%B8%8F"
+   "https://drive.google.com/uc?id=1t6JEHK87a0U-jTzw3n_M7u_fKA2N1LTY&export=download#%E2%AD%90%EF%B8%8FFreeXrayVPN%E2%AD%90%EF%B8%8F",
+   "https://raw.githubusercontent.com/Pun-Pun-03/singsub/refs/heads/main/TestedByMyself"
    #"https://raw.githubusercontent.com/miladtahanian/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt",
    #"https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs_tested.txt",
    #"https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt"
@@ -32,10 +33,10 @@ SPECIFIC_CONFIG_COUNT = 400
 # Set each protocol to True to enable, False to disable.
 ENABLED_PROTOCOLS = {
     "wireguard://": False,
-    "hysteria2://": False,
+    "hysteria2://": True,
     "vless://": True,
     "vmess://": True,
-    "ss://": True,
+    "ss://": False,
     "trojan://": True,
     "tuic://": False,
 }
