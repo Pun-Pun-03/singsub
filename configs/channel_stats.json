@@ -1,25 +1,48 @@
 {
-  "timestamp": "2025-11-08T17:57:38.114295+00:00",
+  "timestamp": "2025-12-03T15:38:08.831150+00:00",
   "channels": [
     {
       "url": "https://drive.google.com/uc?id=1t6JEHK87a0U-jTzw3n_M7u_fKA2N1LTY&export=download#%E2%AD%90%EF%B8%8FFreeXrayVPN%E2%AD%90%EF%B8%8F",
       "enabled": true,
       "metrics": {
-        "total_configs": 1020,
-        "valid_configs": 20,
-        "unique_configs": 20,
-        "avg_response_time": 1.2,
+        "total_configs": 1113,
+        "valid_configs": 21,
+        "unique_configs": 21,
+        "avg_response_time": 1.18,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 73.69,
-        "last_success": "2025-11-08T17:57:38.113517+00:00",
+        "overall_score": 73.7,
+        "last_success": "2025-12-03T15:37:50.093002+00:00",
         "protocol_counts": {
           "wireguard://": 0,
           "hysteria2://": 0,
-          "vless://": 11,
+          "vless://": 12,
           "vmess://": 0,
           "ss://": 0,
           "trojan://": 9,
+          "tuic://": 0
+        }
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Pun-Pun-03/singsub/refs/heads/main/TestedByMyself",
+      "enabled": true,
+      "metrics": {
+        "total_configs": 77284,
+        "valid_configs": 278,
+        "unique_configs": 278,
+        "avg_response_time": 0.22,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 74.76,
+        "last_success": "2025-12-03T15:38:08.823977+00:00",
+        "protocol_counts": {
+          "wireguard://": 0,
+          "hysteria2://": 44,
+          "vless://": 158,
+          "vmess://": 21,
+          "ss://": 0,
+          "trojan://": 55,
           "tuic://": 0
         }
       }
