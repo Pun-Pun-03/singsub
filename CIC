@@ -49,6 +49,7 @@
     },
 	 {
       "type": "urltest",
+	   "tag": "BestForeign",
       "outbounds": [
         "vless0",
         "vless1",
@@ -127,7 +128,7 @@
         "vless74"
       ],
       "url": "http://cp.cloudflare.com",
-      "interval": "4m0s",
+      "interval": "30m0s",
 	  "tolerance": 240
     },
     {
@@ -146,7 +147,6 @@
       ],
       "url": "http://cp.cloudflare.com",
       "interval": "15m0s",
-      "idle_timeout": "40m0s",
 	  "tolerance": 120
     },
     {
