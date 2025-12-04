@@ -1831,7 +1831,8 @@
             {
                 "rule_set": [
                     "geosite-ir",
-                    "geosite-playstation"
+                    "geosite-playstation",
+                    "geosite-category-games"
                 ],
                 "outbound": "direct"
             },
