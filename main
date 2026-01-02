@@ -8,6 +8,7 @@
         "level": "fatal"
     },
     "dns": {
+"strategy": "ipv4_only",
         "servers": [
             {
                 "type": "local"
@@ -20,18 +21,13 @@
             "tag": "in",
             "listen": "0.0.0.0",
             "listen_port": 7895,
-            "domain_strategy": "prefer_ipv4",
-            "tcp_fast_open": true,
-            "sniff": true,
-            "sniff_override_destination": false
+			"tcp_fast_open": true
         },
         {
             "type": "socks",
             "tag": "socksin",
             "listen": "127.0.0.1",
-            "listen_port": 20170,
-            "sniff": false,
-            "sniff_override_destination": false
+            "listen_port": 20170
         }
     ],
     "outbounds": [
@@ -61,7 +57,7 @@
       "tag": "UK1",
       "server": "51.68.197.174",
       "server_port": 2095,
-      "uuid": "b57276e4-b28a-4381-aa3c-c0747d57f50f",
+      "uuid": "22c70478-be1d-4081-86aa-cf312d7f20e7",
       "transport": {
         "type": "ws",
         "path": "/retybcajfgujbiorth",
@@ -75,7 +71,7 @@
       "tag": "UK2",
       "server": "51.195.255.103",
       "server_port": 8080,
-      "password": "ER2vpLLIXR",
+      "password": "5e175801c63e1a23",
       "transport": {
         "type": "ws",
         "path": "/",
@@ -89,6 +85,21 @@
     ],
     "route": {
         "rules": [
+		      {
+        "inbound": "in",
+        "action": "resolve",
+        "strategy": "prefer_ipv4"
+      },
+      {
+        "inbound": "in",
+        "action": "sniff",
+        "timeout": "1s"
+		},
+      {
+        "inbound": "socksin",
+        "action": "sniff",
+        "timeout": "1s"
+		},
             {
                 "network": "udp",
                 "port": [
