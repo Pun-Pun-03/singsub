@@ -37,8 +37,6 @@
             "outbounds": [
                 "Best-Ping",
                 "direct",
-                "UK1",
-                "UK2",
         "🇱🇻 - LV - @freeOnlineVPN § 0",
         "🏴‍☠️|•@confegraigan § 1",
         "\u003e\u003e@oneclickvpnkeys::CH § 2",
@@ -98,6 +96,8 @@
         "♂️32@oneclickvpnkeys § 56",
         "🇳🇱@JKVPN(ایرانسل) § 57",
         "@Rayan_Config 6.66 § 58",
+                "UK1",
+                "UK2",
         "\u003e\u003e@configV2rayNG::DE § 59"
             ]
         },
@@ -105,8 +105,6 @@
             "type": "urltest",
             "tag": "Best-Ping",
             "outbounds": [
-                "UK1",
-                "UK2",
         "🇱🇻 - LV - @freeOnlineVPN § 0",
         "🏴‍☠️|•@confegraigan § 1",
         "\u003e\u003e@oneclickvpnkeys::CH § 2",
@@ -166,6 +164,8 @@
         "♂️32@oneclickvpnkeys § 56",
         "🇳🇱@JKVPN(ایرانسل) § 57",
         "@Rayan_Config 6.66 § 58",
+                "UK1",
+                "UK2",
         "\u003e\u003e@configV2rayNG::DE § 59"
             ],
             "url": "http:\/\/cp.cloudflare.com\/",
