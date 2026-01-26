@@ -54,6 +54,24 @@
 	  "interval": "5m0s",
 	  "tolerance": 90
     },
+        {
+            "type": "socks",
+            "server": "192.168.100.53",
+            "server_port": 6060,
+            "tag": "Local-1"
+        },
+        {
+            "type": "socks",
+            "server": "192.168.100.53",
+            "server_port": 6061,
+            "tag": "Local-2"
+        },
+        {
+            "type": "socks",
+            "server": "192.168.100.53",
+            "server_port": 6062,
+            "tag": "Local-3"
+        },
     {
       "type": "vless",
       "tag": "UK1",
