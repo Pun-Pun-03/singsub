@@ -1,13 +1,9 @@
-#profile-title: base64:Q29uZmlnIHwgbWFpbg==
-#profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-
-
 {
     "log": {
         "level": "fatal"
     },
     "dns": {
+"strategy": "ipv4_only",
         "servers": [
             {
                 "type": "local"
@@ -20,336 +16,68 @@
             "tag": "in",
             "listen": "0.0.0.0",
             "listen_port": 7895,
-            "domain_strategy": "prefer_ipv4",
-            "tcp_fast_open": true,
-            "sniff": true,
-            "sniff_override_destination": false
+			"tcp_fast_open": true
         },
         {
             "type": "socks",
             "tag": "socksin",
             "listen": "127.0.0.1",
-            "listen_port": 20170,
-            "sniff": false,
-            "sniff_override_destination": false
+            "listen_port": 20170
         }
     ],
-    "outbounds": [
-        {
-            "type": "selector",
-            "tag": "proxy",
-            "outbounds": [
-                "Best-Ping",
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "proxy",
+      "outbounds": [
+                "auto",
                 "direct",
                 "Local-1",
                 "Local-2",
                 "Local-3",
-				"1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11",
-                "12",
-                "Config-6"
-
-            ]
-        },
-        {
-            "type": "urltest",
-            "tag": "Best-Ping",
-            "outbounds": [
+				"UK1",
+                "UK2"
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
                 "Local-1",
                 "Local-2",
                 "Local-3",
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11",
-                "12",
-                "Config-6"
-            ],
-            "url": "http:\/\/cp.cloudflare.com\/",
-            "interval": "15m",
-            "tolerance": 120
-        },
-        {
-            "type": "socks",
-            "server": "192.168.100.53",
-            "server_port": 6060,
-            "tag": "Local-1"
-        },
-        {
-            "type": "socks",
-            "server": "192.168.100.53",
-            "server_port": 6061,
-            "tag": "Local-2"
-        },
-        {
-            "type": "socks",
-            "server": "192.168.100.53",
-            "server_port": 6062,
-            "tag": "Local-3"
-        },
-        {
-            "type": "trojan",
-            "server": "51.195.255.103",
-            "server_port": 8080,
-            "password": "ER2vpLLIXR",
-            "domain_strategy": "prefer_ipv4",
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "51.195.255.103"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": ""
-            },
-            "tag": "Config-6"
-        },
- {
-      "type": "vless",
-      "tag": "1",
-      "detour": "Local-1",
-      "server": "[2001:41d0:801:2000::3a44]",
-      "server_port": 443,
-      "uuid": "3313dd42-5c01-454b-a85d-9117004c31a9",
-      "flow": "xtls-rprx-vision",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "bale.ai",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "2",
-      "detour": "Local-1",
-      "server": "uk-01.allhubb.info",
-      "server_port": 8443,
-      "password": "42d956c6a66decda",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "uk-01.allhubb.info",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+				"UK1",
+                "UK2"
+		],
+      "url": "http://cp.cloudflare.com",
+	  "interval": "5m0s",
+	  "tolerance": 90
     },
     {
       "type": "vless",
-      "tag": "3",
-      "detour": "Local-1",
-      "server": "[2001:41d0:801:2000::1c88]",
-      "server_port": 443,
-      "uuid": "fd97d911-df7d-4cd6-b966-bc9602e65dd7",
-      "flow": "xtls-rprx-vision",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "bale.ai",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "4",
-      "detour": "Local-1",
-      "server": "uk-02.allhubb.info",
-      "server_port": 8443,
-      "password": "e505990cb147cb64",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "uk-02.allhubb.info",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "5",
-      "detour": "Local-1",
-      "server": "[2001:41d0:801:2000::5c5e]",
-      "server_port": 443,
-      "uuid": "0fe7080f-bdf8-4941-ba5e-09c3ff5cb346",
-      "flow": "xtls-rprx-vision",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "uk-03.allhubb.info",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "7",
-      "detour": "Local-1",
-      "server": "[2001:41d0:801:2000::3547]",
-      "server_port": 443,
-      "uuid": "5d8ecaed-1704-468d-a16d-12120d28c9e8",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "8",
-      "detour": "Local-1",
-      "server": "uk-04.allhubb.info",
-      "server_port": 8443,
-      "password": "3d66b6ac7a426653",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "uk-04.allhubb.info",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "9",
-      "detour": "Local-1",
-      "server": "[2001:41d0:801:2000::4635]",
-      "server_port": 443,
-      "uuid": "a292e034-1156-4dc2-9590-04e2632009a4",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "10",
-      "detour": "Local-1",
-      "server": "uk-05.allhubb.info",
-      "server_port": 8443,
-      "password": "7dad0f46f897498d",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "uk-05.allhubb.info",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "11",
-      "detour": "Local-1",
+      "tag": "UK1",
       "server": "51.68.197.174",
       "server_port": 2095,
-      "uuid": "b57276e4-b28a-4381-aa3c-c0747d57f50f",
-      "flow": "",
+      "uuid": "22c70478-be1d-4081-86aa-cf312d7f20e7",
       "transport": {
         "type": "ws",
-        "path": "/retybcajfgujbiorth?ed=2560",
-        "headers": {
-          "Host": "51.68.197.174"
-        }
+        "path": "/retybcajfgujbiorth",
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
-      "tls": {
-        "enabled": false
-      }
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
-      "tag": "12",
-      "detour": "Local-1",
-      "server": "uk-06.allhubb.info",
-      "server_port": 8443,
-      "password": "EEZOnBcgLR",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "uk-06.allhubb.info",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+      "tag": "UK2",
+      "server": "51.195.255.103",
+      "server_port": 8080,
+      "password": "5e175801c63e1a23",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
         {
@@ -359,6 +87,21 @@
     ],
     "route": {
         "rules": [
+		      {
+        "inbound": "in",
+        "action": "resolve",
+        "strategy": "prefer_ipv4"
+      },
+      {
+        "inbound": "in",
+        "action": "sniff",
+        "timeout": "1s"
+		},
+      {
+        "inbound": "socksin",
+        "action": "sniff",
+        "timeout": "1s"
+		},
             {
                 "network": "udp",
                 "port": [
@@ -369,12 +112,14 @@
             {
                 "rule_set": [
                     "geosite-ir",
-                    "geosite-playstation",
-                    "geosite-category-games"
-                ],
+                    "geosite-playstation"
+					],
                 "outbound": "direct"
             },
             {
+                "domain": [
+                    "photos.googleapis.com"
+                ],			
                 "domain_suffix": [
                     "deserver.top"
                 ],
@@ -401,13 +146,6 @@
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/refs/heads/rule-set/geosite-playstation.srs",
                 "download_detour": "direct"
-            },
-            {
-              "type": "remote",
-              "tag": "geosite-category-games",
-              "format": "binary",
-              "url": "https://github.com/Chocolate4U/Iran-sing-box-rules/raw/refs/heads/rule-set/geosite-category-games.srs",
-              "download_detour": "direct"
             },
             {
                 "type": "remote",
