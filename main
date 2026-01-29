@@ -1,1172 +1,263 @@
-#profile-title: base64:Q29uZmlnIHwgbWFpbg==
-#profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-
-
 {
-    "log": {
-        "level": "fatal"
-    },
-    "dns": {
-"strategy": "ipv4_only",
-        "servers": [
-            {
-                "type": "local"
-            }
-        ]
-    },
-    "inbounds": [
-        {
-            "type": "tproxy",
-            "tag": "in",
-            "listen": "0.0.0.0",
-            "listen_port": 7895,
-			"tcp_fast_open": true
-        },
-        {
-            "type": "socks",
-            "tag": "socksin",
-            "listen": "127.0.0.1",
-            "listen_port": 20170
-        }
-    ],
-    "outbounds": [
-        {
-            "type": "selector",
-            "tag": "proxy",
-            "outbounds": [
-                "Best-Ping",
-                "direct",
-        "🇱🇻 - LV - @freeOnlineVPN § 0",
-        "🏴‍☠️|•@confegraigan § 1",
-        "\u003e\u003e@oneclickvpnkeys::CH § 2",
-        "\u003e\u003e@v2nodes::CZ § 3",
-        "@Hddify § 4",
-        "[🛸] ➠ @V2ray_official § 5",
-        "HP71 § 6",
-        "[سرور نامحدود فقط ۷۰ هزار تومن]@kaanfing § 7",
-        "ConfigV2RayNG § 8",
-        "🇳🇱V2WRAY𓄂𓆃 § 9",
-        "[🇷🇺]t.me/Raiv2mmr § 10",
-        "BESTIIVPNBOT § 11",
-        "🇫🇮 فنلاند``` § 12",
-        "\u003e\u003e@v2rayNG_Matsuri::XX § 13",
-        "@v2rayngzendegimamad🕊️ § 14",
-        "@mobilesignal § 15",
-        "♂️37@oneclickvpnkeys § 16",
-        "🇷🇺 Москва-4 [Без ЮТУБА и т.д., работа по ГОСТу] § 17",
-        "[🇨🇭]t.me/Raiv2mmr § 18",
-        "🇷🇴 - RO - @freeOnlineVPN § 19",
-        "♂️04@oneclickvpnkeys § 20",
-        "♾️36@oneclickvpnkeys § 21",
-        "@zeshtobad § 22",
-        "⚡ @Fast78_Channel | Best Free Configs § 23",
-        "🇩🇪@Vpn_Sky | منبع ضد اختلال`` § 24",
-        "WiFi-@V2rayAlpha--14 § 25",
-        "@Selinc § 26",
-        "🔖 | @confegraigan` § 27",
-        "🇳🇱⚡︎🇮🇷 |•@confegraigan` § 28",
-        "\u003e\u003e@configV2rayNG::FI § 29",
-        "github.com/Ruk1ng001_3134323237626462 § 30",
-        "♂️05@oneclickvpnkeys § 31",
-        "BESTIIVPNBOT § 32",
-        "16♾️@oneclickvpnkeys § 33",
-        "@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - ⚡ | § 34",
-        "@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - ⚡ | § 35",
-        "🇮🇷|•@confegraigan|نت ملی § 36",
-        "\u003e\u003e@v2nodes::XX § 37",
-        "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 38",
-        "github.com/Ruk1ng001_3232313539623666 § 39",
-        "♾️92@oneclickvpnkeys § 40",
-        "🇳🇱 - NL - @freeOnlineVPN § 41",
-        "𝗝𝗼𝗶𝗻 ➠ @PlanB_net | کانال ما 🆔 § 42",
-        "\u003e\u003e@DailyV2RY::XX § 43",
-        "All_4--@V2rayAlpha § 44",
-        "[🇭🇰]t.me/ConfigsHub § 45",
-        "\u003e\u003e@oneclickvpnkeys::US § 46",
-        "\u003e\u003e@oneclickvpnkeys::NL § 47",
-        "\u003e\u003e@oneclickvpnkeys::SG § 48",
-        "♂️40@oneclickvpnkeys § 49",
-        "\u003e\u003e@oneclickvpnkeys::US § 50",
-        "\u003e\u003e@DailyV2RY::XX § 51",
-        "\u003e\u003e@oneclickvpnkeys::AU § 52",
-        "[🚀] ➠ @V2ray_official 👈 سرورهای بیشتر § 53",
-        "\u003e\u003e@oneclickvpnkeys::US § 54",
-        "🟩90@oneclickvpnkeys § 55",
-        "♂️32@oneclickvpnkeys § 56",
-        "🇳🇱@JKVPN(ایرانسل) § 57",
-        "@Rayan_Config 6.66 § 58",
-                "UK1",
-                "UK2",
-        "\u003e\u003e@configV2rayNG::DE § 59"
-            ]
-        },
-        {
-            "type": "urltest",
-            "tag": "Best-Ping",
-            "outbounds": [
-        "🇱🇻 - LV - @freeOnlineVPN § 0",
-        "🏴‍☠️|•@confegraigan § 1",
-        "\u003e\u003e@oneclickvpnkeys::CH § 2",
-        "\u003e\u003e@v2nodes::CZ § 3",
-        "@Hddify § 4",
-        "[🛸] ➠ @V2ray_official § 5",
-        "HP71 § 6",
-        "[سرور نامحدود فقط ۷۰ هزار تومن]@kaanfing § 7",
-        "ConfigV2RayNG § 8",
-        "🇳🇱V2WRAY𓄂𓆃 § 9",
-        "[🇷🇺]t.me/Raiv2mmr § 10",
-        "BESTIIVPNBOT § 11",
-        "🇫🇮 فنلاند``` § 12",
-        "\u003e\u003e@v2rayNG_Matsuri::XX § 13",
-        "@v2rayngzendegimamad🕊️ § 14",
-        "@mobilesignal § 15",
-        "♂️37@oneclickvpnkeys § 16",
-        "🇷🇺 Москва-4 [Без ЮТУБА и т.д., работа по ГОСТу] § 17",
-        "[🇨🇭]t.me/Raiv2mmr § 18",
-        "🇷🇴 - RO - @freeOnlineVPN § 19",
-        "♂️04@oneclickvpnkeys § 20",
-        "♾️36@oneclickvpnkeys § 21",
-        "@zeshtobad § 22",
-        "⚡ @Fast78_Channel | Best Free Configs § 23",
-        "🇩🇪@Vpn_Sky | منبع ضد اختلال`` § 24",
-        "WiFi-@V2rayAlpha--14 § 25",
-        "@Selinc § 26",
-        "🔖 | @confegraigan` § 27",
-        "🇳🇱⚡︎🇮🇷 |•@confegraigan` § 28",
-        "\u003e\u003e@configV2rayNG::FI § 29",
-        "github.com/Ruk1ng001_3134323237626462 § 30",
-        "♂️05@oneclickvpnkeys § 31",
-        "BESTIIVPNBOT § 32",
-        "16♾️@oneclickvpnkeys § 33",
-        "@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - ⚡ | § 34",
-        "@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - ⚡ | § 35",
-        "🇮🇷|•@confegraigan|نت ملی § 36",
-        "\u003e\u003e@v2nodes::XX § 37",
-        "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 38",
-        "github.com/Ruk1ng001_3232313539623666 § 39",
-        "♾️92@oneclickvpnkeys § 40",
-        "🇳🇱 - NL - @freeOnlineVPN § 41",
-        "𝗝𝗼𝗶𝗻 ➠ @PlanB_net | کانال ما 🆔 § 42",
-        "\u003e\u003e@DailyV2RY::XX § 43",
-        "All_4--@V2rayAlpha § 44",
-        "[🇭🇰]t.me/ConfigsHub § 45",
-        "\u003e\u003e@oneclickvpnkeys::US § 46",
-        "\u003e\u003e@oneclickvpnkeys::NL § 47",
-        "\u003e\u003e@oneclickvpnkeys::SG § 48",
-        "♂️40@oneclickvpnkeys § 49",
-        "\u003e\u003e@oneclickvpnkeys::US § 50",
-        "\u003e\u003e@DailyV2RY::XX § 51",
-        "\u003e\u003e@oneclickvpnkeys::AU § 52",
-        "[🚀] ➠ @V2ray_official 👈 سرورهای بیشتر § 53",
-        "\u003e\u003e@oneclickvpnkeys::US § 54",
-        "🟩90@oneclickvpnkeys § 55",
-        "♂️32@oneclickvpnkeys § 56",
-        "🇳🇱@JKVPN(ایرانسل) § 57",
-        "@Rayan_Config 6.66 § 58",
-                "UK1",
-                "UK2",
-        "\u003e\u003e@configV2rayNG::DE § 59"
-            ],
-            "url": "http:\/\/cp.cloudflare.com\/",
-            "interval": "15m",
-            "tolerance": 120
-        },
-    {
-      "type": "vless",
-      "tag": "UK1",
-      "server": "51.68.197.174",
-      "server_port": 2095,
-      "uuid": "22c70478-be1d-4081-86aa-cf312d7f20e7",
-      "transport": {
-        "type": "ws",
-        "path": "/retybcajfgujbiorth",
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "UK2",
-      "server": "51.195.255.103",
-      "server_port": 8080,
-      "password": "5e175801c63e1a23",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 - LV - @freeOnlineVPN § 0",
-      "server": "94.131.104.147",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "6VAcll4P8xPTUVVtHeST3onRmLoVIBSU"
-    },
-    {
-      "type": "vless",
-      "tag": "🏴‍☠️|•@confegraigan § 1",
-      "server": "185.130.114.219",
-      "server_port": 443,
-      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
-          "short_id": "7cad5040"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "\u003e\u003e@oneclickvpnkeys::CH § 2",
-      "server": "152.67.95.183",
-      "server_port": 443,
-      "password": "e343471a-aad3-40da-9dea-72cc8c7dce5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "\u003e\u003e@v2nodes::CZ § 3",
-      "server": "151.101.194.219",
-      "server_port": 80,
-      "uuid": "08c7f096-d057-4d53-82fd-c739d372887b",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "chz.global.ssl.fastly.net"
-        },
-        "max_early_data": 1024,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "@Hddify § 4",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 36600,
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[🛸] ➠ @V2ray_official § 5",
-      "server": "162.159.152.2",
-      "server_port": 443,
-      "uuid": "495c0dad-3268-4470-ac57-887c5089db0d",
-      "tls": {
-        "enabled": true,
-        "server_name": "asuka.boringdad.netlib.re",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "asuka.boringdad.netlib.re"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "HP71 § 6",
-      "server": "206.71.158.37",
-      "server_port": 35200,
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[سرور نامحدود فقط ۷۰ هزار تومن]@kaanfing § 7",
-      "server": "151.101.2.219",
-      "server_port": 80,
-      "uuid": "08c7f096-d057-4d53-82fd-c739d372887b",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "eston.global.ssl.fastly.net"
-        },
-        "max_early_data": 1024,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ConfigV2RayNG § 8",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 36400,
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱V2WRAY𓄂𓆃 § 9",
-      "server": "5.35.34.181",
-      "server_port": 443,
-      "uuid": "1f8494d3-51a3-420e-8b51-494851573741",
-      "tls": {
-        "enabled": true,
-        "server_name": "web.max.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "rAMn0lQ0hcsZ0ZnUWwe022bU8pMXYWViV_XSpQ1NKXU",
-          "short_id": "48a458b7e7cb52ae"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[🇷🇺]t.me/Raiv2mmr § 10",
-      "server": "93.183.94.163",
-      "server_port": 32609,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Cztwy34B07eqN6H4YoPGXZ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "BESTIIVPNBOT § 11",
-      "server": "193.29.139.157",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇮 فنلاند``` § 12",
-      "server": "fl3.cowjuice.me",
-      "server_port": 9443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "X36TIi4C3NH6Oln3TdGyjg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\u003e\u003e@v2rayNG_Matsuri::XX § 13",
-      "server": "45.87.175.167",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "type": "vless",
-      "tag": "@v2rayngzendegimamad🕊️ § 14",
-      "server": "57.129.49.1",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "@mobilesignal § 15",
-      "server": "62.60.246.188",
-      "server_port": 443,
-      "uuid": "405ec164-7923-4d76-8be5-7ae96e444f4e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "web.max.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0",
-          "short_id": "6104c5e9613ea56c"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "♂️37@oneclickvpnkeys § 16",
-      "server": "203.27.106.148",
-      "server_port": 443,
-      "password": "e343471a-aad3-40da-9dea-72cc8c7dce5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 Москва-4 [Без ЮТУБА и т.д., работа по ГОСТу] § 17",
-      "server": "185.251.89.26",
-      "server_port": 4443,
-      "uuid": "146ea0d5-f02d-4f72-9665-04be2df345d1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "github.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE",
-          "short_id": "aa7e96542880027a"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "[🇨🇭]t.me/Raiv2mmr § 18",
-      "server": "portal.ofmdirect.com",
-      "server_port": 23200,
-      "uuid": "69a397ac-1a30-455f-a0ad-7c45c4c8ad16",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "tgju.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LE95sS4Nr-eLLLKM6g7VXQ3zpnL_kVI9QJVirYPhYhc",
-          "short_id": "1147e7aa17cb87aa"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 - RO - @freeOnlineVPN § 19",
-      "server": "45.82.102.245",
-      "server_port": 11201,
-      "method": "chacha20-ietf-poly1305",
-      "password": "a02fb60d5cf400c6"
-    },
-    {
-      "type": "vless",
-      "tag": "♂️04@oneclickvpnkeys § 20",
-      "server": "151.115.123.227",
-      "server_port": 8443,
-      "uuid": "98895157-4ded-4eeb-a22c-058ed62bdac3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "stats.vk-portal.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-          "short_id": "31"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "♾️36@oneclickvpnkeys § 21",
-      "server": "pol01-ss01.tcp-reset-club.net",
-      "server_port": 8443,
-      "uuid": "98895157-4ded-4eeb-a22c-058ed62bdac3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "stats.vk-portal.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-          "short_id": "e499f276e7bd6420"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "@zeshtobad § 22",
-      "server": "141.95.109.160",
-      "server_port": 11201,
-      "method": "chacha20-ietf-poly1305",
-      "password": "823cdb94a457faee"
-    },
-    {
-      "type": "vless",
-      "tag": "⚡ @Fast78_Channel | Best Free Configs § 23",
-      "server": "65.108.231.185",
-      "server_port": 443,
-      "uuid": "440766d1-858f-4719-84f5-c2de6f6227b2",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.avito.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪@Vpn_Sky | منبع ضد اختلال`` § 24",
-      "server": "151.101.195.8",
-      "server_port": 80,
-      "uuid": "3ff60b54-f6d6-467f-9189-df1a0567c647",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2052?Telegram-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-",
-        "headers": {
-          "Host": "norbert-team-free1.global.ssl.fastly.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "WiFi-@V2rayAlpha--14 § 25",
-      "server": "5.129.249.134",
-      "server_port": 443,
-      "uuid": "mega2499",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ir.ozone.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F14RpPKCKo_qPcW7EFVu1M18JsAT8c04O08cIi0Ghg4",
-          "short_id": "ab1cd2"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "@Selinc § 26",
-      "server": "134.255.210.49",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "vless",
-      "tag": "🔖 | @confegraigan` § 27",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "081b2388-f7f6-4f18-be3b-c04a03eae7db",
-      "transport": {
-        "type": "ws",
-        "path": "/@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----@FreeV2rayChannel----",
-        "headers": {
-          "Host": "freebot.global.ssl.fastly.net"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱⚡︎🇮🇷 |•@confegraigan` § 28",
-      "server": "server.ultra-irancell.com",
-      "server_port": 80,
-      "uuid": "telegram-turboo-server",
-      "transport": {
-        "type": "ws",
-        "path": "/ed=2056",
-        "headers": {
-          "Host": "jone-turboo-server.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\u003e\u003e@configV2rayNG::FI § 29",
-      "server": "104.16.53.11",
-      "server_port": 2052,
-      "uuid": "08c7f096-d057-4d53-82fd-c739d372887b",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "fin.mastermarly.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "github.com/Ruk1ng001_3134323237626462 § 30",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 36300,
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "♂️05@oneclickvpnkeys § 31",
-      "server": "51.250.28.232",
-      "server_port": 1488,
-      "uuid": "cc5be457-024a-4bd1-b769-90973ba5b06e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "BESTIIVPNBOT § 32",
-      "server": "178.17.53.28",
-      "server_port": 47539,
-      "uuid": "447c45cd-ade0-4bfe-90a0-3e581829f741",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U",
-          "short_id": "82a55f31981ea6be"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "16♾️@oneclickvpnkeys § 33",
-      "server": "193.123.76.84",
-      "server_port": 443,
-      "password": "e343471a-aad3-40da-9dea-72cc8c7dce5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - ⚡ | § 34",
-      "server": "5.188.227.18",
-      "server_port": 11205,
-      "method": "chacha20-ietf-poly1305",
-      "password": "317f13c5c2ebdea3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - ⚡ | § 35",
-      "server": "5.188.227.18",
-      "server_port": 11203,
-      "method": "chacha20-ietf-poly1305",
-      "password": "317f13c5c2ebdea3"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇮🇷|•@confegraigan|نت ملی § 36",
-      "server": "206.71.158.37",
-      "server_port": 36600,
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "\u003e\u003e@v2nodes::XX § 37",
-      "server": "nethgtun.bestjadid.ir",
-      "server_port": 8989,
-      "uuid": "a9171965-cda0-461f-a6f2-a57069c875a3",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands - Amsterdam 🌍 HY2-UDP-TLS 4⃣ § 38",
-      "server": "206.71.158.37",
-      "server_port": 35000,
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "github.com/Ruk1ng001_3232313539623666 § 39",
-      "server": "yapc-1.adamhayward.co.uk",
-      "server_port": 35200,
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "♾️92@oneclickvpnkeys § 40",
-      "server": "172.234.130.82",
-      "server_port": 10001,
-      "uuid": "53cd8178-2ee6-43d9-a2a7-881f287fd408",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM",
-          "short_id": "1a24af87"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 - NL - @freeOnlineVPN § 41",
-      "server": "206.71.158.37",
-      "server_port": 36300,
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "𝗝𝗼𝗶𝗻 ➠ @PlanB_net | کانال ما 🆔 § 42",
-      "server": "206.71.158.37",
-      "server_port": 36400,
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "password": "Yet-Another-Public-Config-1",
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\u003e\u003e@DailyV2RY::XX § 43",
-      "server": "193.203.203.66",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "All_4--@V2rayAlpha § 44",
-      "server": "23.95.75.146",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "NDRySIABARbErNIVsCNVkyYAHiBzhveT"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[🇭🇰]t.me/ConfigsHub § 45",
-      "server": "185.244.208.150",
-      "server_port": 11201,
-      "method": "chacha20-ietf-poly1305",
-      "password": "41d6655d3625fd14"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "\u003e\u003e@oneclickvpnkeys::US § 46",
-      "server": "pq.us7.globals-download.com",
-      "server_port": 443,
-      "password": "e343471a-aad3-40da-9dea-72cc8c7dce5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "\u003e\u003e@oneclickvpnkeys::NL § 47",
-      "server": "31.44.0.63",
-      "server_port": 58349,
-      "uuid": "48a8cab5-ce75-4c8a-90f5-dcd020c89b4b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "\u003e\u003e@oneclickvpnkeys::SG § 48",
-      "server": "152.69.220.212",
-      "server_port": 443,
-      "password": "e343471a-aad3-40da-9dea-72cc8c7dce5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.push.apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "♂️40@oneclickvpnkeys § 49",
-      "server": "158.178.236.104",
-      "server_port": 443,
-      "password": "e343471a-aad3-40da-9dea-72cc8c7dce5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.push.apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "\u003e\u003e@oneclickvpnkeys::US § 50",
-      "server": "15.204.97.198",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "\u003e\u003e@DailyV2RY::XX § 51",
-      "server": "23.95.72.81",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "UAMVtHm54uahd6SiN5WcD16rsPSdabPG"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "\u003e\u003e@oneclickvpnkeys::AU § 52",
-      "server": "158.179.18.251",
-      "server_port": 443,
-      "password": "e343471a-aad3-40da-9dea-72cc8c7dce5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.push.apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[🚀] ➠ @V2ray_official 👈 سرورهای بیشتر § 53",
-      "server": "185.47.254.87",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "type": "vless",
-      "tag": "\u003e\u003e@oneclickvpnkeys::US § 54",
-      "server": "162.159.44.142",
-      "server_port": 443,
-      "uuid": "3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97",
-      "tls": {
-        "enabled": true,
-        "server_name": "l.ayovo.netlib.re",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "l.ayovo.netlib.re"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "🟩90@oneclickvpnkeys § 55",
-      "server": "45.77.20.207",
-      "server_port": 10435,
-      "password": "ace1qxDyr_-GmIUgK.1Tnjb6ikAN",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuzzyfonduepotstand.oscillatingovenmitt.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "♂️32@oneclickvpnkeys § 56",
-      "server": "146.56.164.36",
-      "server_port": 443,
-      "password": "e343471a-aad3-40da-9dea-72cc8c7dce5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.push.apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱@JKVPN(ایرانسل) § 57",
-      "server": "joker.membergolabi.ir",
-      "server_port": 80,
-      "uuid": "1--JKVPN",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN?ed2048",
-        "headers": {
-          "Host": "joKer.mEmBerGolaBi.IR."
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "@Rayan_Config 6.66 § 58",
-      "server": "23andme.com",
-      "server_port": 443,
-      "uuid": "defd03ed-ef26-415c-a64e-f95edd0d430e",
-      "tls": {
-        "enabled": true,
-        "server_name": "rAyAn-cOnFiG-jp-1.pArSa.dPdNs.oRg",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "rAyAn-cOnFiG-jp-1.pArSa.dPdNs.oRg"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "\u003e\u003e@configV2rayNG::DE § 59",
-      "server": "104.17.148.22",
-      "server_port": 8880,
-      "uuid": "6b0ba493-98ac-4436-9b27-af65318c1fe1",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "mx6.mmadvip8563.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-        {
-            "type": "direct",
-            "tag": "direct"
-        }
-    ],
-    "route": {
-        "rules": [
-		      {
-        "inbound": "in",
-        "action": "resolve",
-        "strategy": "prefer_ipv4"
-      },
-      {
-        "inbound": "in",
-        "action": "sniff",
-        "timeout": "1s"
-		},
-      {
-        "inbound": "socksin",
-        "action": "sniff",
-        "timeout": "1s"
-		},
-            {
-                "network": "udp",
-                "port": [
-                    19302
-                ],
-                "outbound": "proxy"
-            },
-            {
-                "rule_set": [
-                    "geosite-ir"
-                ],
-                "outbound": "direct"
-            },
-            {
-                "domain_suffix": [
-                    "deserver.top"
-                ],
-                "outbound": "direct"
-            },
-            {
-                "inbound": [
-                    "socksin"
-                ],
-                "outbound": "proxy"
-            }
-        ],
-        "rule_set": [
-            {
-                "type": "remote",
-                "tag": "geosite-ir",
-                "format": "binary",
-                "url": "https:\/\/raw.githubusercontent.com\/Chocolate4U\/Iran-sing-box-rules\/refs\/heads\/rule-set\/geosite-ir.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geosite-steam",
-                "format": "binary",
-                "url": "https:\/\/raw.githubusercontent.com\/Chocolate4U\/Iran-sing-box-rules\/refs\/heads\/rule-set\/geosite-steam.srs",
-                "download_detour": "direct"
-            }
-        ],
-        "final": "proxy",
-        "default_mark": 666
-    },
-    "experimental": {
-        "clash_api": {
-            "external_controller": "0.0.0.0:9090",
-            "external_ui": "zashboard",
-            "external_ui_download_url": "https:\/\/github.com\/Zephyruso\/zashboard\/archive\/refs\/heads\/gh-pages.zip",
-            "external_ui_download_detour": "direct",
-            "secret": "",
-            "default_mode": "rule"
-        }
+ "outbounds": [
+ {
+   "type": "vless",
+   "tag": "Join Telegram:@MinooNetwork § 0",
+   "server": "ipbaz.ping-box.com",
+   "server_port": 443,
+   "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+   "tls": {
+    "enabled": true,
+    "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "tls_tricks": {
+     "mixedcase_sni": true
     }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "[87934] - Telegram : @V2All § 1",
+   "server": "85.133.204.189",
+   "server_port": 1501,
+   "uuid": "96fbe154-e984-492d-a4f4-5dbbb7a18247",
+   "tls": {
+    "enabled": true,
+    "server_name": "docker.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1sDMgyhL5HPRAaRYJcAf21sWbSlq0kgitPVL2HQwB2M"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "BESTIIVPNBOT § 2",
+   "server": "iar.blackhoster.com",
+   "server_port": 351,
+   "uuid": "563c07c5-d7a7-4f67-abee-ca323b5ce0ba",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "refersion.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+     "short_id": "fd1dff03520d8f56"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "@v2rayngzendegimamad🕊️ § 3",
+   "server": "www.devpirate.baby",
+   "server_port": 53352,
+   "uuid": "00a8d864-307a-49ec-9229-22c4c130fcf1",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.devpirate.baby",
+    "insecure": true,
+    "alpn": [
+     "h2",
+     "http/1.1"
+    ],
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "vless § 0",
+   "server": "104.17.164.123",
+   "server_port": 8443,
+   "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+   "tls": {
+    "enabled": true,
+    "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+    "insecure": true,
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "tls_tricks": {
+     "mixedcase_sni": true
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "vless § 1",
+   "server": "172.64.145.38",
+   "server_port": 8443,
+   "uuid": "9e685fe3-e0f9-482d-939c-200a3f89b363",
+   "tls": {
+    "enabled": true,
+    "server_name": "vyznthvt7f5fr.zjde5.de5.net",
+    "insecure": true,
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "tls_tricks": {
+     "mixedcase_sni": true
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "vyznthvt7f5fr.zjde5.de5.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "vless § 2",
+   "server": "66.81.247.155",
+   "server_port": 443,
+   "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+   "tls": {
+    "enabled": true,
+    "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+    "insecure": true,
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "tls_tricks": {
+     "mixedcase_sni": true
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "vless § 3",
+   "server": "66.81.247.155",
+   "server_port": 443,
+   "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+   "tls": {
+    "enabled": true,
+    "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+    "insecure": true,
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "tls_tricks": {
+     "mixedcase_sni": true
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "vless § 4",
+   "server": "mpc.mobayandeh.top",
+   "server_port": 443,
+   "uuid": "7718721f-2975-4d82-bdcd-ad92bd1dd779",
+   "tls": {
+    "enabled": true,
+    "server_name": "holcdn.wordperessweb.ir",
+    "insecure": true,
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "tls_tricks": {
+     "mixedcase_sni": true
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "holcdn.wordperessweb.ir"
+    },
+    "max_early_data": 2082,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "vless § 5",
+   "server": "66.81.247.155",
+   "server_port": 443,
+   "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+   "tls": {
+    "enabled": true,
+    "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+    "insecure": true,
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "tls_tricks": {
+     "mixedcase_sni": true
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  }
+ ]
 }
