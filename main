@@ -1,263 +1,1480 @@
 {
- "outbounds": [
- {
-   "type": "vless",
-   "tag": "Join Telegram:@MinooNetwork § 0",
-   "server": "ipbaz.ping-box.com",
-   "server_port": 443,
-   "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-   "tls": {
-    "enabled": true,
-    "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
+  "outbounds": [
+    {
+      "type": "xray",
+      "tag": "⚡ @Fr33C0nfig § 0",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "statue.lnmarketplace.net",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7c63f43f-f526-49bb-b5c8-2be26e11ef00"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "firefox",
+            "rejectUnknownSni": false,
+            "serverName": "statue.lnmarketplace.net"
+          }
+        },
+        "tag": "⚡ @Fr33C0nfig"
+      }
     },
-    "tls_tricks": {
-     "mixedcase_sni": true
+    {
+      "type": "vless",
+      "tag": "⚡Telegram = @SOSkeyNET § 1",
+      "server": "mz.igateway.xyz",
+      "server_port": 26362,
+      "uuid": "1c0e3a67-85c0-4636-99ff-103b57b341dd",
+      "transport": {
+        "type": "http",
+        "host": "skyroom.online",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "تلگرام: یام‌یام پروکسی | YamYamProxy                                                                                            ایرانسل مازندران § 2",
+      "server": "142.54.178.212",
+      "server_port": 443,
+      "uuid": "b996c508-7bfb-4332-8555-0bfb6ad2c6aa",
+      "tls": {
+        "enabled": true,
+        "server_name": "secret.domainhamrah80.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "secret.domainhamrah80.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "xray",
+      "tag": "⚡Telegram = @SOSkeyNET § 3",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp0101Rs5K.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp0101Rs5K.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "⚡Telegram = @SOSkeyNET"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -92 § 4",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010Ss8P9.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010Ss8P9.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -92"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -97 § 5",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010PhYxG.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010PhYxG.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -97"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -80 § 6",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010B8a65.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010B8a65.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -80"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -94 § 7",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010GeYvG.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010GeYvG.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -94"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -79 § 8",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp0103QlJ4.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp0103QlJ4.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -79"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "📍Telegram = @V2WRAY𓄂𓆃 § 9",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "statue.lnmarketplace.net",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7c63f43f-f526-49bb-b5c8-2be26e11ef00"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "statue.lnmarketplace.net"
+          },
+          "xhttpSettings": {
+            "host": "statue.lnmarketplace.net",
+            "mode": "stream-one",
+            "path": "/statue"
+          }
+        },
+        "tag": "📍Telegram = @V2WRAY𓄂𓆃"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -85 § 10",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010536El.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010536El.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -85"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -81 § 11",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp0106K9zL.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp0106K9zL.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -81"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "ShadowProxy66 -133 § 12",
+      "server": "2.188.227.28",
+      "server_port": 1010,
+      "uuid": "e505b502-3e04-4c7d-81c7-c9ebd3570150",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -72 § 13",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010X0a0U.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010X0a0U.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -72"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -83 § 14",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp0109Xx8M.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp0109Xx8M.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -83"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -99 § 15",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp0104TmTl.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp0104TmTl.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -99"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -77 § 16",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010Ct2Vm.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010Ct2Vm.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -77"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -75 § 17",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010KqZq5.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010KqZq5.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -75"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -70 § 18",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010Vq8Rk.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010Vq8Rk.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -70"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -100 § 19",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010GpD7a.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010GpD7a.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -100"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -95 § 20",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010AxM1a.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010AxM1a.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -95"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -91 § 21",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010RoPdB.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010RoPdB.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -91"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -74 § 22",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010FaXmG.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010FaXmG.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -74"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -96 § 23",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010X8i8A.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010X8i8A.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -96"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -88 § 24",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010W6157.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010W6157.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -88"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -93 § 25",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010F5jPk.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010F5jPk.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -93"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -73 § 26",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010T4xHk.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010T4xHk.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -73"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -101 § 27",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp0107SzH0.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp0107SzH0.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -101"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -86 § 28",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp0101F8dD.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp0101F8dD.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -86"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -87 § 29",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010XwS6g.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010XwS6g.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -87"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -84 § 30",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp01076QzG.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp01076QzG.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -84"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -69 § 31",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010DkYdL.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010DkYdL.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -69"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -76 § 32",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010Nc2Yy.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010Nc2Yy.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -76"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -89 § 33",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010VaX2d.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010VaX2d.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -89"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -71 § 34",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010YtDsA.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010YtDsA.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -71"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -98 § 35",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010U2mWz.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010U2mWz.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -98"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -90 § 36",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010XmFnT.dOtA2pLaY.iNfO"
+          },
+          "xhttpSettings": {
+            "host": "Tp010XmFnT.dOtA2pLaY.iNfO",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -90"
+      }
+    },
+    {
+      "type": "xray",
+      "tag": "ConfigV2RayNG -82 § 37",
+      "udp_over_tcp": false,
+      "xconfig": {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ipw.ygdfw.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "7e58699f-1d5d-4f6b-b181-cb74f0ad9509"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "",
+            "rejectUnknownSni": false,
+            "serverName": "Tp010C82c7.DoTa2PlAy.InFo"
+          },
+          "xhttpSettings": {
+            "host": "Tp010C82c7.DoTa2PlAy.InFo",
+            "mode": "stream-one",
+            "path": "/"
+          }
+        },
+        "tag": "ConfigV2RayNG -82"
+      }
     }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "[87934] - Telegram : @V2All § 1",
-   "server": "85.133.204.189",
-   "server_port": 1501,
-   "uuid": "96fbe154-e984-492d-a4f4-5dbbb7a18247",
-   "tls": {
-    "enabled": true,
-    "server_name": "docker.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1sDMgyhL5HPRAaRYJcAf21sWbSlq0kgitPVL2HQwB2M"
-    }
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "BESTIIVPNBOT § 2",
-   "server": "iar.blackhoster.com",
-   "server_port": 351,
-   "uuid": "563c07c5-d7a7-4f67-abee-ca323b5ce0ba",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "refersion.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-     "short_id": "fd1dff03520d8f56"
-    }
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "@v2rayngzendegimamad🕊️ § 3",
-   "server": "www.devpirate.baby",
-   "server_port": 53352,
-   "uuid": "00a8d864-307a-49ec-9229-22c4c130fcf1",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.devpirate.baby",
-    "insecure": true,
-    "alpn": [
-     "h2",
-     "http/1.1"
-    ],
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "vless § 0",
-   "server": "104.17.164.123",
-   "server_port": 8443,
-   "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-   "tls": {
-    "enabled": true,
-    "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
-    "insecure": true,
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "tls_tricks": {
-     "mixedcase_sni": true
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "vless § 1",
-   "server": "172.64.145.38",
-   "server_port": 8443,
-   "uuid": "9e685fe3-e0f9-482d-939c-200a3f89b363",
-   "tls": {
-    "enabled": true,
-    "server_name": "vyznthvt7f5fr.zjde5.de5.net",
-    "insecure": true,
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "tls_tricks": {
-     "mixedcase_sni": true
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "vyznthvt7f5fr.zjde5.de5.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "vless § 2",
-   "server": "66.81.247.155",
-   "server_port": 443,
-   "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-   "tls": {
-    "enabled": true,
-    "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
-    "insecure": true,
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "tls_tricks": {
-     "mixedcase_sni": true
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "vless § 3",
-   "server": "66.81.247.155",
-   "server_port": 443,
-   "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-   "tls": {
-    "enabled": true,
-    "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
-    "insecure": true,
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "tls_tricks": {
-     "mixedcase_sni": true
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "vless § 4",
-   "server": "mpc.mobayandeh.top",
-   "server_port": 443,
-   "uuid": "7718721f-2975-4d82-bdcd-ad92bd1dd779",
-   "tls": {
-    "enabled": true,
-    "server_name": "holcdn.wordperessweb.ir",
-    "insecure": true,
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "tls_tricks": {
-     "mixedcase_sni": true
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "holcdn.wordperessweb.ir"
-    },
-    "max_early_data": 2082,
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "vless § 5",
-   "server": "66.81.247.155",
-   "server_port": 443,
-   "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-   "tls": {
-    "enabled": true,
-    "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
-    "insecure": true,
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "tls_tricks": {
-     "mixedcase_sni": true
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  }
- ]
+  ]
 }
