@@ -45,3 +45,8 @@ vless://e8da176f-e24e-4af1-a386-53a6a5396248@api-c1.wiki-mobile-two.com:10443?en
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.217.198.211:443
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.38.75.96:443
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@34.245.190.123:443
+vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@104.21.18.41:443?encryption=none&security=tls&sni=www.getasa.ir&fp=chrome&type=ws&host=www.getasa.ir&path=/--Telegram---@horn_proxy/---@horn_proxy/---horn_proxy/---@horn_proxy&packetEncoding=xudp
+vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@104.21.18.41:443?encryption=none&security=tls&sni=www.getasa.ir&allowInsecure=true&fp=chrome&type=ws&host=www.getasa.ir&path=/--Telegram---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN&packetEncoding=xudp
+vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@104.21.18.41:443?encryption=none&security=tls&sni=www.getasa.ir&fp=chrome&type=ws&host=www.getasa.ir&path=/--Telegram---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN&packetEncoding=xudp
+vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@172.67.180.92:443?encryption=none&security=tls&sni=cdn.abcallcenter.com&fp=chrome&type=ws&host=cdn.abcallcenter.com&path=/--Telegram---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN&packetEncoding=xudp
+vless://0569f3ce-447b-4ac5-aae3-b47ae55351f7@167.82.92.159:80?encryption=none&type=ws&host=dayous.global.ssl.fastly.net&path=/&packetEncoding=xudp
