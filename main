@@ -1,7 +1,12 @@
 #fragmentation-enable: 1
-#fragmentation-packets: 1-1
+#fragmentation-packets: 1-3
 #fragmentation-length: 5-8
 #fragmentation-interval: 1-2
+#fragmentation-maxsplit: 100-200
+#ping-type proxy
+#check-url-via-proxy: https://cp.cloudflare.com/generate_204
+#subscription-auto-update-open-enable: 1
+
 vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?security=tls&type=grpc&serviceName=&sni=pqh29v3.carwashipdir.shop&fp=chrome&allowInsecure=0#sssssss
 trojan://humanity@104.18.32.47:443?mux=&path=%2Fassignment&security=tls&host=www.gossipglove.com&fp=chrome&type=ws&muxConcurrency=-1&sni=www.gossipglove.com#%D8%AC%D9%88%DB%8C%D9%86+%DA%86%D9%86%D9%84+%D8%B4%DB%8C%D8%AF+%D9%82%D8%B7+%D9%86%D8%B4%DB%8C%D8%AF%40shankamil
 trojan://humanity@104.18.11.110:443?mux=&path=%2Fassignment&security=tls&fp=chrome&type=ws&muxConcurrency=-1&sni=www.multiplydose.com#%F0%9F%8C%90+WS-TLS+%7C+%40Express_alaki+%7C+src+%40meliproxyy
